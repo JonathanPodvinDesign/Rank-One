@@ -1,6 +1,12 @@
 // VARIABLES
 
-$primary-color : #1e1e1f;
-$secondary-color : #fdc300;
-$primary-font : 'Source Sans Pro';
-$secondary-font : 'Graduate';
+// colors
+$primary-color: #1e1e1f;
+$secondary-color: #fdc300;
+
+// fonts
+$primary-font: "Source Sans Pro";
+$secondary-font: "Graduate";
+
+// animations
+$ease-in: cubic-bezier(0.88, 0.04, 0.84, 0.57);

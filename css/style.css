@@ -78,6 +78,10 @@ header nav .nav__bar__menu {
   top: 0px;
   right: -100vw;
   background-color: #1e1e1f;
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57), -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
 }
 
 header nav .nav__bar__menu ul {
@@ -140,6 +144,8 @@ header nav .nav__bar__hamburger {
   border: 0px;
   border-color: transparent;
   margin-left: 30px;
+  -webkit-animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+          animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
 }
 
 header nav .nav__bar__hamburger__line {
@@ -148,6 +154,10 @@ header nav .nav__bar__hamburger__line {
   height: 3px;
   width: 20px;
   margin-bottom: 7px;
+  -webkit-transition: -webkit-transform 150ms ease-out;
+  transition: -webkit-transform 150ms ease-out;
+  transition: transform 150ms ease-out;
+  transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;
 }
 
 header nav .nav__bar__hamburger span:first-child {
@@ -157,33 +167,49 @@ header nav .nav__bar__hamburger span:first-child {
 
 header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-left {
   position: relative;
-  left: 5px;
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
 }
 
 header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-right {
   position: relative;
-  right: 5px;
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
+@-webkit-keyframes open-close-burger {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes open-close-burger {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .nav__bar__hamburger__line__yellow {
   background-color: #fdc300 !important;
-}
-
-keyframes menu-showing-up from {
-  right: -100vh;
-}
-
-keyframes menu-showing-up to {
-  right: 0px;
+  -webkit-animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+          animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
 }
 
 .nav__bar__menu__show {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
-  transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
-  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
-  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98), -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57), -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
 }
 
 .nav__bar__hamburger__fixed {
