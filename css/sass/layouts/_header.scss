@@ -127,6 +127,17 @@ header {
   }
 }
 
+// for jQuery : menu change animation when scrolling
+.header-scrolling-down {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 1px 1px 25px lighten($primary-color, 10);
+  z-index: 100;
+}
+
 // for jQuery : change color on hamburger:hover
 @keyframes open-close-burger {
   0% {

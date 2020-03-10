@@ -179,6 +179,17 @@ header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-right {
           transform: translateX(-5px);
 }
 
+.header-scrolling-down {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 1px 1px 25px #373739;
+          box-shadow: 1px 1px 25px #373739;
+  z-index: 100;
+}
+
 @-webkit-keyframes open-close-burger {
   0% {
     opacity: 0;

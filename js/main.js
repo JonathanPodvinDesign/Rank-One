@@ -14,4 +14,12 @@ $(document).ready(function() {
       "nav__bar__menu___link__sub-menu__show"
     );
   });
+  //  menu scrolling down
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 60) {
+      $("header").addClass("header-scrolling-down");
+    } else if ($(window).scrollTop() < 60) {
+      $("header").removeClass("header-scrolling-down");
+    }
+  });
 });
