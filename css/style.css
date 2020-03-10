@@ -1,0 +1,376 @@
+* {
+  font-family: "Source Sans Pro";
+  color: #1e1e1f;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Graduate";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: 1.2rem;
+}
+
+input, textarea {
+  border: 0px solid transparent;
+  padding: 10px;
+}
+
+header {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fdc300;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 60px 0 60px;
+}
+
+header nav .nav__brand {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+header nav .nav__brand img {
+  height: 35px;
+}
+
+header nav .nav__bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
+}
+
+header nav .nav__bar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  z-index: 100;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  right: -100vw;
+  background-color: #1e1e1f;
+}
+
+header nav .nav__bar__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+}
+
+header nav .nav__bar__menu ul li {
+  margin: 25px;
+}
+
+header nav .nav__bar__menu ul li a {
+  font-family: "Graduate";
+  text-decoration: none;
+  color: #fdc300;
+}
+
+header nav .nav__bar__menu ul li a:hover {
+  color: #ffe17e;
+}
+
+header nav .nav__bar__menu ul li ul {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  padding-top: 15px;
+}
+
+header nav .nav__bar__menu ul li ul li {
+  margin: 5px;
+}
+
+header nav .nav__bar__menu ul li ul li a {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  color: white;
+}
+
+header nav .nav__bar__hamburger {
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  z-index: 200;
+  background-color: transparent;
+  border: 0px;
+  border-color: transparent;
+  margin-left: 30px;
+}
+
+header nav .nav__bar__hamburger__line {
+  display: block;
+  background-color: #1e1e1f;
+  height: 3px;
+  width: 20px;
+  margin-bottom: 7px;
+}
+
+header nav .nav__bar__hamburger span:first-child {
+  position: relative;
+  margin-top: 7px;
+}
+
+header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-left {
+  position: relative;
+  left: 5px;
+}
+
+header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-right {
+  position: relative;
+  right: 5px;
+}
+
+.nav__bar__hamburger__line__yellow {
+  background-color: #fdc300 !important;
+}
+
+.nav__bar__menu__show {
+  right: 0px !important;
+}
+
+.nav__bar__hamburger__fixed {
+  position: fixed !important;
+}
+
+.nav__bar__menu___link__sub-menu__show {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 444px;
+  background-color: #fdc300;
+}
+
+footer a img {
+  height: 100px;
+}
+
+@media (max-width: 576px) {
+  footer a img {
+    height: 50px;
+  }
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #1e1e1f;
+  padding: 60px;
+}
+
+@media (max-width: 576px) {
+  .contact {
+    max-width: 576px;
+  }
+}
+
+.contact__container {
+  background-color: #fdc300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 40px;
+}
+
+@media (max-width: 576px) {
+  .contact__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+.contact__container__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.contact__container__info__social {
+  padding-bottom: 25px;
+}
+
+@media (max-width: 576px) {
+  .contact__container__info__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}
+
+.contact__container__info__social__icon {
+  font-size: 1.2rem;
+  padding-right: 1rem;
+}
+
+.contact__container__info__adress {
+  padding-bottom: 25px;
+}
+
+@media (max-width: 576px) {
+  .contact__container__info__adress {
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact__container__info__schedule {
+    text-align: center;
+    padding-bottom: 60px;
+  }
+}
+
+.contact__container__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.contact__container__form input,
+.contact__container__form textarea {
+  outline: none;
+}
+
+.contact__container__form__name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__container__form__name-email input {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 20px;
+}
+
+.contact__container__form__name-email__input-name {
+  margin-right: 20px;
+}
+
+.contact__container__form__subject {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.contact__container__form__subject input {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.contact__container__form__message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.contact__container__form__message textarea {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.contact__container__form__message button {
+  cursor: pointer;
+  position: absolute;
+  z-index: 10;
+  right: 10px;
+  bottom: 10px;
+  padding: 12px 20px 12px 20px;
+  background-color: #1e1e1f;
+  color: white;
+  border: 0px solid transparent;
+  font-family: "Graduate";
+  text-transform: uppercase;
+}
+
+.contact__container__form__message button:hover {
+  color: #fdc300;
+}
+/*# sourceMappingURL=style.css.map */

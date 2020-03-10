@@ -1,0 +1,168 @@
+/* GENERAL */
+
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  color : #1e1e1f;
+  text-decoration: none;
+  list-style: none;
+  margin : 0;
+  padding: 0;
+}
+
+a{
+  color : #1e1e1f;
+  text-decoration: none;
+}
+
+ul{
+  margin: 0;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+header{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #fdc300;
+}
+
+nav{
+  padding: 0 8% 0 8%;
+}
+
+.nav-brand{
+
+}
+
+.nav-brand img{
+  height: 35px;
+}
+
+.nav-menu{
+  position: relative;
+}
+
+.nav-link{
+  font-family: 'Graduate';
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.dropdown-menu{
+  background-color: #1e1e1f;
+  border: 2px solid #707070;
+  z-index: 10;
+  border-radius : 0;
+  text-align: center;
+  padding: 0;
+}
+
+.arrow-submenu{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #707070;
+  position: absolute;
+  top: -12px;
+  left: 25%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.dropdown-menu a{
+  color : #fdc300;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-family: 'Source Sans Pro';
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dropdown-menu a:hover{
+  background-color: #fdc300;
+  color: #1e1e1f;
+}
+
+.dropdown-toggle::after{
+  display:none;
+}
+
+/* CONTACT */
+/* CONTACT */
+/* CONTACT */
+
+.main-container{
+  background-color: #1e1e1f;
+  padding: 80px 0 80px 0;
+}
+
+.contact-container{
+  background-color: #fdc300;
+  padding: 30px;
+}
+
+.contact-column{
+  padding: 0;
+}
+
+.contact-container H2{
+  font-family: "Graduate";
+  font-size: 1.3em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-social{
+  margin-bottom: 40px;
+}
+
+.contact-social-icon{
+  font-size: 1em;
+}
+
+.contact-adress{
+  margin-bottom: 40px;
+  font-size: 0.9em;
+}
+
+.contact-horaires p{
+margin-bottom: 0;
+font-size: 0.9em;
+}
+
+.btn-form{
+  position: absolute;
+  right: 28px;
+  bottom: 20px;
+  font-family: 'Graduate';
+  color: white;
+  background-color: #1e1e1f;
+  border: 0px;
+  font-size: 0.7em;
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer{
+  height: 444px;
+  background-color: #fdc300;
+}
+
+footer a img{
+  height: 100px;
+}

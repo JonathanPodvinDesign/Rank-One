@@ -1,0 +1,17 @@
+// FOOTER
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 444px;
+    background-color: $secondary-color;
+    a {
+        img{
+        height: 100px;
+        @media(max-width: 576px){
+            height: 50px;
+            }
+        }
+    }
+}

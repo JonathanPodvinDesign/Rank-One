@@ -1,0 +1,15 @@
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 444px;
+  background-color: #fdc300;
+}
+
+footer a img{
+  height: 100px;
+}
