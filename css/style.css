@@ -169,8 +169,21 @@ header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-right {
   background-color: #fdc300 !important;
 }
 
+keyframes menu-showing-up from {
+  right: -100vh;
+}
+
+keyframes menu-showing-up to {
+  right: 0px;
+}
+
 .nav__bar__menu__show {
-  right: 0px !important;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
+  transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
+  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
+  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98), -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.55, 0.98);
 }
 
 .nav__bar__hamburger__fixed {
