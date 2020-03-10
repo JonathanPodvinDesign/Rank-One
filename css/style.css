@@ -9,12 +9,20 @@
 
 h3 {
   font-family: "Graduate";
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   padding-bottom: 1.2rem;
 }
 
-input, textarea {
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1.3rem;
+    padding-bottom: 0.9rem;
+  }
+}
+
+input,
+textarea {
   border: 0px solid transparent;
   padding: 10px;
 }
@@ -24,6 +32,8 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #fdc300;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
 }
 
 header nav {
@@ -78,10 +88,10 @@ header nav .nav__bar__menu {
   top: 0px;
   right: -100vw;
   background-color: #1e1e1f;
-  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-  transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57), -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
 header nav .nav__bar__menu ul {
@@ -144,8 +154,8 @@ header nav .nav__bar__hamburger {
   border: 0px;
   border-color: transparent;
   margin-left: 30px;
-  -webkit-animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-          animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  -webkit-animation: open-close-burger 300ms ease-in-out;
+          animation: open-close-burger 300ms ease-in-out;
 }
 
 header nav .nav__bar__hamburger__line {
@@ -154,10 +164,10 @@ header nav .nav__bar__hamburger__line {
   height: 3px;
   width: 20px;
   margin-bottom: 7px;
-  -webkit-transition: -webkit-transform 150ms ease-out;
-  transition: -webkit-transform 150ms ease-out;
-  transition: transform 150ms ease-out;
-  transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;
+  -webkit-transition: -webkit-transform 150ms ease-in-out;
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
 }
 
 header nav .nav__bar__hamburger span:first-child {
@@ -179,7 +189,7 @@ header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-right {
           transform: translateX(-5px);
 }
 
-.header-scrolling-down {
+.sticky-menu {
   position: fixed;
   top: 0px;
   width: 100vw;
@@ -188,6 +198,8 @@ header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-right {
   -webkit-box-shadow: 1px 1px 25px #373739;
           box-shadow: 1px 1px 25px #373739;
   z-index: 100;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
 }
 
 @-webkit-keyframes open-close-burger {
@@ -210,21 +222,30 @@ header nav .nav__bar__hamburger:hover .nav__bar__hamburger__hover-right {
 
 .nav__bar__hamburger__line__yellow {
   background-color: #fdc300 !important;
-  -webkit-animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-          animation: open-close-burger 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  -webkit-animation: open-close-burger 300ms ease-in-out;
+          animation: open-close-burger 300ms ease-in-out;
 }
 
 .nav__bar__menu__show {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  -webkit-transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-  transition: -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
-  transition: transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57), -webkit-transform 400ms cubic-bezier(0.88, 0.04, 0.84, 0.57);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
 .nav__bar__hamburger__fixed {
   position: fixed !important;
+}
+
+.transform-for-sticky-menu {
+  -webkit-transform: translateY(120px);
+          transform: translateY(120px);
+  -webkit-transition: -webkit-transform ease-in-out;
+  transition: -webkit-transform ease-in-out;
+  transition: transform ease-in-out;
+  transition: transform ease-in-out, -webkit-transform ease-in-out;
 }
 
 .nav__bar__menu___link__sub-menu__show {
@@ -253,7 +274,7 @@ footer a img {
 
 @media (max-width: 576px) {
   footer a img {
-    height: 50px;
+    height: 75px;
   }
 }
 
@@ -265,9 +286,9 @@ footer a img {
   padding: 60px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .contact {
-    max-width: 576px;
+    max-width: 768px;
   }
 }
 
@@ -281,7 +302,7 @@ footer a img {
   padding: 40px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .contact__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -300,13 +321,14 @@ footer a img {
           flex-flow: column;
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
+  padding-right: 1rem;
 }
 
 .contact__container__info__social {
   padding-bottom: 25px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .contact__container__info__social {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -316,7 +338,7 @@ footer a img {
         -ms-flex-flow: column;
             flex-flow: column;
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
 }
 
@@ -325,21 +347,37 @@ footer a img {
   padding-right: 1rem;
 }
 
+.contact__container__info__social__icon:last-child {
+  padding-right: 0px;
+}
+
 .contact__container__info__adress {
   padding-bottom: 25px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .contact__container__info__adress {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  .contact__container__info__adress p {
+    font-size: 0.93rem;
+  }
+}
+
+@media (max-width: 768px) {
   .contact__container__info__schedule {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact__container__info__schedule p {
+    font-size: 0.93rem;
   }
 }
 
@@ -369,6 +407,18 @@ footer a img {
           justify-content: space-between;
 }
 
+@media (max-width: 650px) {
+  .contact__container__form__name-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .contact__container__form__name-email input {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -377,6 +427,18 @@ footer a img {
 
 .contact__container__form__name-email__input-name {
   margin-right: 20px;
+}
+
+@media (max-width: 650px) {
+  .contact__container__form__name-email__input-name {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact__container__form__name-email__input-email {
+    margin-top: 20px;
+  }
 }
 
 .contact__container__form__subject {

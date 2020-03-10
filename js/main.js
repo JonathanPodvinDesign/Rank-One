@@ -17,9 +17,28 @@ $(document).ready(function() {
   //  menu scrolling down
   $(window).scroll(function() {
     if ($(window).scrollTop() > 60) {
-      $("header").addClass("header-scrolling-down");
+      $("header").addClass("sticky-menu");
     } else if ($(window).scrollTop() < 60) {
-      $("header").removeClass("header-scrolling-down");
+      $("header").removeClass("sticky-menu");
     }
   });
+  // .contact : déplacement de 159px (y) quand le header est fixed
+
+  // $(window).scroll(function() {
+  //   if ($(window).scrollTop() > 60) {
+  //     $(".contact footer").addClass("transform-for-sticky-menu");
+  //   } else if ($(window).scrollTop() < 60) {
+  //     $(".contact footer").removeClass("transform-for-sticky-menu");
+  //   }
+  // });
+
+  // margin top contact section when sticky menu
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 60) {
+      $(".contact").css("padding-top", "219px");
+    } else if ($(window).scrollTop() < 60) {
+      $(".contact").css("padding-top", "60px");
+    }
+  });
+  //end
 });

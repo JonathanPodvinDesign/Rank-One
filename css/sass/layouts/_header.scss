@@ -5,6 +5,7 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $secondary-color;
+  transition: 200ms ease-in-out;
 
   nav {
     display: flex;
@@ -40,7 +41,7 @@ header {
         top: 0px;
         right: -100vw;
         background-color: $primary-color;
-        transition: transform 400ms $ease-in;
+        transition: transform 300ms ease-in-out;
 
         & ul {
           display: flex;
@@ -95,7 +96,7 @@ header {
         border: 0px;
         border-color: transparent;
         margin-left: 30px;
-        animation: open-close-burger 400ms $ease-in;
+        animation: open-close-burger 300ms ease-in-out;
 
         // hamburger line
         &__line {
@@ -104,7 +105,7 @@ header {
           height: 3px;
           width: 20px;
           margin-bottom: 7px;
-          transition: transform 150ms ease-out;
+          transition: transform 150ms ease-in-out;
         }
 
         & span:first-child {
@@ -128,7 +129,7 @@ header {
 }
 
 // for jQuery : menu change animation when scrolling
-.header-scrolling-down {
+.sticky-menu {
   position: fixed;
   top: 0px;
   width: 100vw;
@@ -136,6 +137,7 @@ header {
   padding-bottom: 20px;
   box-shadow: 1px 1px 25px lighten($primary-color, 10);
   z-index: 100;
+  transition: 300ms ease-in-out;
 }
 
 // for jQuery : change color on hamburger:hover
@@ -150,19 +152,25 @@ header {
 
 .nav__bar__hamburger__line__yellow {
   background-color: $secondary-color !important;
-  animation: open-close-burger 400ms $ease-in;
+  animation: open-close-burger 300ms ease-in-out;
 }
 
 // for jQuery : show menu when hamburger is cliked
 .nav__bar__menu__show {
   transform: translateX(-100%);
-  transition: transform 400ms $ease-in;
+  transition: transform 300ms ease-in-out;
   // right: 0px !important;
 }
 
 // for jQuery : when menu is on, haburger is fixed
 .nav__bar__hamburger__fixed {
   position: fixed !important;
+}
+
+// for jQuery : déplacement de 159px (y) quand le header est fixed
+.transform-for-sticky-menu {
+  transform: translateY(120px);
+  transition: transform ease-in-out;
 }
 
 // for jQuery : show sub-menu when link in menu is cliked
