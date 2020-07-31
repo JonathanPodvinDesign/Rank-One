@@ -12,8 +12,10 @@
 h3 {
   font-family: $secondary-font;
   font-size: 1.4rem;
+  font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 1.2rem;
+
   @media (max-width: 768px) {
     font-size: 1.3rem;
     padding-bottom: 0.9rem;
@@ -24,4 +26,152 @@ input,
 textarea {
   border: 0px solid transparent;
   padding: 10px;
+}
+
+.display--flex {
+  display: flex !important;
+}
+
+.arrow {
+  background-image: url(/img/arrow.svg);
+  height: 16px;
+  width: 20px;
+}
+
+.main-white {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .pagination {
+    & .selection {
+      & div {
+        & a {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.background {
+  // z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: calc(100vw - 17px);
+  height: 100vh;
+  pointer-events: none;
+
+  div {
+    flex-grow: 4;
+    border-right: 1px solid #929292;
+    pointer-events: none;
+  }
+}
+
+.primary-button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 220px;
+  padding: 12px 0;
+  font-family: $secondary-font;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $secondary-color;
+    color: $primary-color;
+    transition: 150ms ease-in-out;
+    border: 1px solid $secondary-color;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.secondary-button {
+  cursor: pointer;
+  z-index: 10;
+  padding: 12px 20px 12px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: 0px solid transparent;
+  font-family: $secondary-font;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+.third-button {
+  cursor: pointer;
+  z-index: 10;
+  padding: 12px 20px 12px 20px;
+  background-color: $secondary-color;
+  border: 0px solid transparent;
+  font-family: $secondary-font;
+  color: $primary-color;
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.categories__title {
+  width: 1090px;
+  align-self: center;
+  padding: 48px 0;
+
+  .hook {
+    position: relative;
+    width: 1090px;
+    align-self: center;
+
+    img {
+      position: absolute;
+      left: -45px;
+      top: -10px;
+      height: 125px;
+    }
+  }
+
+  h2 {
+    font-family: $third-font;
+    font-size: 45px;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+}
+
+.pagination {
+  margin: 48px 0;
+  display: flex;
+  justify-content: center;
+
+  & .selection {
+    display: flex;
+    justify-content: center;
+
+    & div {
+      padding: 0 24px;
+
+      & a {
+        color: white;
+      }
+    }
+  }
+}
+
+.fix__small__height__page--white {
+  background-color: white;
 }

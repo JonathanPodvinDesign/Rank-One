@@ -1,0 +1,157 @@
+body {
+  background-color: $primary-color;
+}
+
+.background-color-yellow {
+  width: calc(100vw - 17px);
+  height: 48px;
+  background-color: $secondary-color;
+}
+
+.container {
+  width: calc(100vw - 17px);
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  font-family: $primary-font;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+/////////////////
+// categories  //
+/////////////////
+
+.categories {
+  z-index: 100;
+  display: flex;
+  align-self: center;
+  width: 1090px;
+  &__category {
+    width: 50%;
+    height: 335px;
+    position: relative;
+    h4 {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  }
+}
+
+//////////////////////
+// categories top  //
+/////////////////////
+.categories-top {
+  position: relative;
+  .categories {
+    &__category:first-child {
+      margin-right: 24px;
+      background-image: url("/img/categories/category__planning.jpg");
+    }
+    &__category:last-child {
+      margin-left: 24px;
+      background-image: url("/img/categories/category__booking.jpg");
+    }
+  }
+  .background-color-yellow {
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+////////////////////////
+// categories esport  //
+///////////////////////
+.categories-esport {
+  background-color: $secondary-color;
+  flex-direction: column;
+  padding-bottom: 48px;
+  position: relative;
+  overflow: hidden;
+  & .background {
+    position: absolute;
+  }
+  .categories {
+    &__category:first-child {
+      margin-right: 24px;
+      background-image: url("/img/categories/category__createteam.jpg");
+    }
+    &__category:last-child {
+      margin-left: 24px;
+      background-image: url("/img/categories/category__foundteam.jpg");
+    }
+  }
+}
+
+///////////////////
+// slider bottom //
+///////////////////
+
+.slider__bottom {
+  z-index: 100;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .background-color-yellow {
+    z-index: -1;
+    position: absolute;
+    .background {
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      width: calc(100vw - 17px);
+      height: 100%;
+      pointer-events: none;
+      div {
+        flex-grow: 4;
+        border-right: 1px solid #929292;
+        pointer-events: none;
+      }
+    }
+  }
+  &__images {
+    width: 1090px;
+    height: 600px;
+    overflow: hidden;
+    &__image {
+      height: 600px;
+    }
+    &__image:nth-child(1) {
+      background-image: url("/img/slider/slide__bottom__img--180712.jpg");
+    }
+    &__image:nth-child(2) {
+      display: none;
+      background-image: url("/img/slider/slide__bottom__img--180712.jpg");
+    }
+  }
+}
+
+/////////////////////////
+// categories bottom  //
+////////////////////////
+.categories-bottom {
+  margin-top: 48px;
+  position: relative;
+  .categories {
+    &__category:first-child {
+      margin-right: 24px;
+      background-image: url("/img/categories/category__blog.jpg");
+    }
+    &__category:last-child {
+      margin-left: 24px;
+      background-image: url("/img/categories/category__store.jpg");
+    }
+  }
+  .background-color-yellow {
+    z-index: -2;
+    position: absolute;
+    bottom: 0;
+  }
+}

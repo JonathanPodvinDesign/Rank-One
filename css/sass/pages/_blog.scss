@@ -1,0 +1,57 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  & article {
+    margin-top: 48px;
+    position: relative;
+    height: 525px;
+    width: 1090px;
+    border: 16px solid white;
+    box-sizing: border-box;
+    align-self: center;
+    & .title {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      color: $primary-color;
+      position: absolute;
+      top: 50%;
+      left: 16px;
+      transform: translateY(-50%);
+      & h2 {
+        padding: 15px;
+        background-color: $secondary-color;
+        font-family: $third-font;
+        text-transform: uppercase;
+        font-size: 26px;
+      }
+      & h3 {
+        float: left;
+        padding: 15px;
+        background-color: $secondary-color;
+        font-family: $third-font;
+        text-transform: uppercase;
+        font-size: 26px;
+        margin-top: 16px;
+      }
+      & p {
+        margin-top: 16px;
+        padding-left: 3px;
+        color: white;
+        font-family: $primary-font;
+      }
+    }
+  }
+  article:nth-child(1) {
+    background-image: url("/img/blog/blog__img--gamingmouse__280518.jpg");
+  }
+  article:nth-child(2) {
+    background-image: url("/img/blog/blog__img--keyboardvsgamepad__210518.jpg");
+  }
+  article:nth-child(3) {
+    background-image: url("/img/blog/blog__img--warmup__140518.jpg");
+  }
+  article:nth-child(4) {
+    background-image: url("/img/blog/blog__img--lol86meta__070518.jpg");
+  }
+}

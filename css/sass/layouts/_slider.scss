@@ -1,0 +1,116 @@
+/////////////
+// slider //
+////////////
+
+.slider {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 48px;
+  // input
+  & input {
+    visibility: hidden;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  //  input checked
+  //   #image1:checked ~ .slider__container__images__image:nth-child(1) {
+  //     margin-left: 0;
+  //   }
+  //   #image2:checked ~ .slider__container__images__image:nth-child(2) {
+  //     margin-left: -25%;
+  //   }
+  //   #image3:checked ~ .slider__container__images__image:nth-child(3) {
+  //     margin-left: -50%;
+  //   }
+  //   #image4:checked ~ .slider__container__images__image:nth-child(4) {
+  //     margin-left: -75%;
+  //   }
+  // navigation
+  &__navigation {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    &__btn {
+      cursor: pointer;
+      height: 16px;
+      width: 16px;
+      background-color: $primary-color;
+      border: 1px solid $secondary-color;
+      margin-right: 16px;
+    }
+    &__btn:hover {
+      background-color: $secondary-color;
+    }
+    div:nth-child(1) {
+      background-color: $secondary-color;
+      border: 1px solid $primary-color;
+    }
+    div:last-child {
+      margin-right: 0;
+    }
+  }
+  &__container {
+    width: 1090px;
+    overflow: hidden;
+    // image
+    &__images {
+      width: 400%;
+      height: 525px;
+      display: flex;
+      transition: 400ms ease-in-out;
+      &__image {
+        position: relative;
+        width: 25%;
+        &__title {
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          position: absolute;
+          left: 48px;
+          top: 50%;
+          transform: translateY(-50%);
+          p {
+            font-size: 26px;
+            color: white;
+            font-family: $third-font;
+            background-color: $primary-color;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+          }
+          p:last-child {
+            margin-bottom: 0;
+          }
+          &--game {
+            padding: 20px;
+          }
+          &--teams {
+            padding: 20px;
+          }
+          &--date {
+            padding: 20px;
+          }
+        }
+      }
+      &__image:nth-child(1) {
+        background-image: url("/img/slider/slide__img--rektvsolympus.jpg");
+      }
+      &__image:nth-child(2) {
+        background-image: url("/img/slider/slide__img--widowtournament.jpg");
+      }
+      &__image:nth-child(3) {
+        background-image: url("/img/slider/slide__img--fifatournament.jpg");
+      }
+      &__image:nth-child(4) {
+        background-image: url("/img/slider/slide__img--csgo.jpg");
+      }
+    }
+  }
+}

@@ -2,8 +2,9 @@
 
 .contact {
   display: flex;
+  justify-content: center;
   background-color: $primary-color;
-  padding: 60px;
+  padding: 60px 0;
 
   @media (max-width: 768px) {
     max-width: 768px;
@@ -11,9 +12,10 @@
 
   // container
   &__container {
+    z-index: 10;
     background-color: $secondary-color;
     display: flex;
-    flex-basis: 100%;
+    width: 1090px;
     padding: 40px;
 
     @media (max-width: 768px) {
@@ -42,6 +44,7 @@
         &__icon {
           font-size: 1.2rem;
           padding-right: 1rem;
+
           &:last-child {
             padding-right: 0px;
           }
@@ -58,6 +61,8 @@
         }
 
         & p {
+          margin-bottom: 7px;
+
           @media (max-width: 768px) {
             font-size: 0.93rem;
           }
@@ -72,6 +77,8 @@
         }
 
         & p {
+          margin-bottom: 7px;
+
           @media (max-width: 768px) {
             font-size: 0.93rem;
           }
@@ -94,6 +101,7 @@
       &__name-email {
         display: flex;
         justify-content: space-between;
+
         @media (max-width: 650px) {
           flex-direction: column;
           justify-content: center;
@@ -108,10 +116,12 @@
         // input name
         &__input-name {
           margin-right: 20px;
+
           @media (max-width: 650px) {
             margin-right: 0;
           }
         }
+
         // input email
         &__input-email {
           @media (max-width: 650px) {
@@ -141,22 +151,10 @@
           flex-basis: 100%;
         }
 
-        button {
-          cursor: pointer;
+        .secondary-button {
           position: absolute;
-          z-index: 10;
           right: 10px;
           bottom: 10px;
-          padding: 12px 20px 12px 20px;
-          background-color: $primary-color;
-          color: white;
-          border: 0px solid transparent;
-          font-family: $secondary-font;
-          text-transform: uppercase;
-
-          &:hover {
-            color: $secondary-color;
-          }
         }
       }
     }

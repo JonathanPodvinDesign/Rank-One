@@ -2,21 +2,113 @@
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    ...
+@media (max-width: 576px) {
+  //
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    ...
+@media (max-width: 768px) {
+  .header {
+    nav {
+      .nav__bar {
+        &__menu {
+          flex-flow: column;
+          height: 100vh;
+          width: 100vw;
+          position: fixed;
+          top: 0px;
+          right: -100vw;
+          background-color: $primary-color;
+
+          & ul {
+            flex-flow: column;
+            font-size: 25px;
+            width: 1090px;
+            & li {
+              margin: 25px 0;
+
+              & ul {
+                padding-top: 15px;
+
+                & li {
+                  a {
+                    font-style: italic;
+                  }
+                }
+              }
+            }
+          }
+        }
+        // hamburger icon
+        &__hamburger {
+          display: block !important;
+        }
+      }
+    }
+  }
+
+  // Header Yellow
+  .header--yellow {
+    & nav {
+      // nav abr
+      & .nav__bar {
+        // nav bar menu
+        &__menu {
+          & ul {
+            & li {
+              & div {
+                color: white !important;
+                & a {
+                  color: white !important;
+                }
+              }
+            }
+          }
+        }
+        // hamburger
+        &__hamburger {
+          &__line {
+            background-color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+
+  // for jQuery : change color on hamburger:hover
+  @keyframes open-close-burger {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .nav__bar__hamburger__line__yellow {
+    background-color: $secondary-color !important;
+    animation: open-close-burger 300ms ease-in-out;
+  }
+
+  // for jQuery : show menu when hamburger is cliked
+  .nav__bar__menu__show {
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 300ms ease-in-out;
+  }
+
+  // for jQuery : when menu is on, hamburger is fixed
+  .nav__bar__hamburger__fixed {
+    position: fixed !important;
+  }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    ...
+@media (max-width: 992px) {
+  //
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    ...
+@media (max-width: 1200px) {
+  //
 }

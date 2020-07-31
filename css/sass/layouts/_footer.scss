@@ -1,6 +1,7 @@
 // FOOTER
 
-footer {
+.footer__logo {
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,10 +9,36 @@ footer {
   background-color: $secondary-color;
   a {
     img {
-      height: 100px;
+      height: 75px;
       @media (max-width: 576px) {
         height: 75px;
       }
+    }
+  }
+}
+
+.footer__logo__social {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 444px;
+  background-color: $secondary-color;
+  &--logo--container {
+    a {
+      .footer__logo__social--logo {
+        height: 45px;
+      }
+    }
+  }
+  &--icons {
+    margin-top: 35px;
+    a {
+      margin-right: 20px;
+    }
+    a:last-child {
+      margin-right: 0;
     }
   }
 }

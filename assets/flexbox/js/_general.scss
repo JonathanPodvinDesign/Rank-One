@@ -1,0 +1,90 @@
+// GENERAL
+
+* {
+  font-family: $primary-font;
+  color: $primary-color;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: $secondary-font;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 1.2rem;
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+    padding-bottom: 0.9rem;
+  }
+}
+
+input,
+textarea {
+  border: 0px solid transparent;
+  padding: 10px;
+}
+
+.background {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  div {
+    flex-grow: 4;
+    border-right: 1px solid #929292;
+    pointer-events: none;
+  }
+}
+
+.primary-button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 220px;
+  padding: 12px 0;
+  font-family: $secondary-font;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $secondary-color;
+    color: $primary-color;
+    transition: 150ms ease-in-out;
+    border: 1px solid $secondary-color;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.categories__title {
+  width: 1090px;
+  align-self: center;
+  padding: 48px 0;
+  .hook {
+    position: relative;
+    width: 1090px;
+    align-self: center;
+    img {
+      position: absolute;
+      left: -45px;
+      top: -10px;
+      height: 125px;
+    }
+  }
+  h2 {
+    font-family: $third-font;
+    font-size: 45px;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+}
