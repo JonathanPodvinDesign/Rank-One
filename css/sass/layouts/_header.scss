@@ -41,14 +41,16 @@
             position: relative;
             margin: 0px 16px;
             & div {
+              user-select: none;
               font-family: $secondary-font;
               color: white;
               cursor: pointer;
               & svg {
-                margin-right: 15px;
+                margin-right: 25px;
                 display: none;
               }
               & a {
+                user-select: none;
                 font-family: $secondary-font;
                 color: white;
                 text-decoration: none;

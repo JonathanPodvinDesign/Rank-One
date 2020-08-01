@@ -32,8 +32,12 @@
               & div {
                 display: flex;
                 justify-content: flex-start;
+                color: $secondary-color;
                 & svg {
                   display: block;
+                }
+                & a {
+                  color: $secondary-color;
                 }
               }
               & ul {
@@ -45,8 +49,12 @@
                 width: 100%;
                 padding-top: 15px;
                 & li {
+                  text-transform: initial;
+                  padding: 0 0 0 50px;
+                  justify-content: flex-start;
+                  background-color: rgba(0, 0, 0, 0) !important;
                   a {
-                    color: white;
+                    color: $secondary-color;
                     font-style: italic;
                   }
                 }
@@ -75,9 +83,9 @@
           & ul {
             & li {
               & div {
-                color: white !important;
+                color: $secondary-color !important;
                 & a {
-                  color: white !important;
+                  color: $secondary-color !important;
                 }
               }
             }
