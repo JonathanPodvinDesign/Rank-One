@@ -33,6 +33,12 @@
       &__social {
         padding-bottom: 25px;
 
+        & div {
+          & a {
+            color: $primary-color;
+          }
+        }
+
         @media (max-width: 768px) {
           display: flex;
           flex-flow: column;

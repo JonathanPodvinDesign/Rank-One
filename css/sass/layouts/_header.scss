@@ -44,6 +44,10 @@
               font-family: $secondary-font;
               color: white;
               cursor: pointer;
+              & svg {
+                margin-right: 15px;
+                display: none;
+              }
               & a {
                 font-family: $secondary-font;
                 color: white;
