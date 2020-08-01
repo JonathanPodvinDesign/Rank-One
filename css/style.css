@@ -1732,9 +1732,16 @@ h4 {
     margin: 25px 0;
   }
   .header nav .nav__bar__menu ul li ul {
+    background-color: transparent;
+    border: transparent;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
     padding-top: 15px;
   }
   .header nav .nav__bar__menu ul li ul li a {
+    color: white;
     font-style: italic;
   }
   .header nav .nav__bar__hamburger {
