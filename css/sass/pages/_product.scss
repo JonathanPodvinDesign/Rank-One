@@ -8,7 +8,7 @@
     position: relative;
     flex: 1 1 calc((100% - 48px) / 2);
     height: 480px;
-    background-image: url("/img/products/casquettenoir/casquettenoir.jpg");
+    background-image: url("../img/products/casquettenoir/casquettenoir.jpg");
     background-repeat: no-repeat;
     background-position: center;
     transition: 150ms ease-in-out;
@@ -32,15 +32,15 @@
       }
 
       &__thumbnail:nth-child(1) {
-        background-image: url("/img/products/casquettenoir/casquettenoir.jpg");
+        background-image: url("../img/products/casquettenoir/casquettenoir.jpg");
       }
 
       &__thumbnail:nth-child(2) {
-        background-image: url("/img/products/casquettenoir/casquettenoir--2.jpg");
+        background-image: url("../img/products/casquettenoir/casquettenoir--2.jpg");
       }
 
       &__thumbnail:nth-child(3) {
-        background-image: url("/img/products/casquettenoir/casquettenoir--3.jpg");
+        background-image: url("../img/products/casquettenoir/casquettenoir--3.jpg");
       }
     }
   }

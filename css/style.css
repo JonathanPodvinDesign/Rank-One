@@ -34,7 +34,7 @@ textarea {
 }
 
 .arrow {
-  background-image: url(/img/arrow.svg);
+  background-image: url(../img/arrow.svg);
   height: 16px;
   width: 20px;
 }
@@ -475,19 +475,19 @@ textarea {
 }
 
 .blog article:nth-child(1) {
-  background-image: url("/img/blog/blog__img--gamingmouse__280518.jpg");
+  background-image: url("../img/blog/blog__img--gamingmouse__280518.jpg");
 }
 
 .blog article:nth-child(2) {
-  background-image: url("/img/blog/blog__img--keyboardvsgamepad__210518.jpg");
+  background-image: url("../img/blog/blog__img--keyboardvsgamepad__210518.jpg");
 }
 
 .blog article:nth-child(3) {
-  background-image: url("/img/blog/blog__img--warmup__140518.jpg");
+  background-image: url("../img/blog/blog__img--warmup__140518.jpg");
 }
 
 .blog article:nth-child(4) {
-  background-image: url("/img/blog/blog__img--lol86meta__070518.jpg");
+  background-image: url("../img/blog/blog__img--lol86meta__070518.jpg");
 }
 
 .blog-page {
@@ -603,7 +603,7 @@ textarea {
       -ms-flex: 1 1 calc((100% - 48px) / 2);
           flex: 1 1 calc((100% - 48px) / 2);
   height: 480px;
-  background-image: url("/img/products/casquettenoir/casquettenoir.jpg");
+  background-image: url("../img/products/casquettenoir/casquettenoir.jpg");
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transition: 150ms ease-in-out;
@@ -634,15 +634,15 @@ textarea {
 }
 
 .product__image__thumbnails__thumbnail:nth-child(1) {
-  background-image: url("/img/products/casquettenoir/casquettenoir.jpg");
+  background-image: url("../img/products/casquettenoir/casquettenoir.jpg");
 }
 
 .product__image__thumbnails__thumbnail:nth-child(2) {
-  background-image: url("/img/products/casquettenoir/casquettenoir--2.jpg");
+  background-image: url("../img/products/casquettenoir/casquettenoir--2.jpg");
 }
 
 .product__image__thumbnails__thumbnail:nth-child(3) {
-  background-image: url("/img/products/casquettenoir/casquettenoir--3.jpg");
+  background-image: url("../img/products/casquettenoir/casquettenoir--3.jpg");
 }
 
 .product__informations {
@@ -826,51 +826,51 @@ textarea {
 }
 
 .boutique__grid__product:nth-child(1) {
-  background-image: url("/img/boutique/casquette-noir.jpg");
+  background-image: url("../img/boutique/casquette-noir.jpg");
 }
 
 .boutique__grid__product:nth-child(2) {
-  background-image: url("/img/boutique/casquette-jaune.jpg");
+  background-image: url("../img/boutique/casquette-jaune.jpg");
 }
 
 .boutique__grid__product:nth-child(3) {
-  background-image: url("/img/boutique/bundle.jpg");
+  background-image: url("../img/boutique/bundle.jpg");
 }
 
 .boutique__grid__product:nth-child(4) {
-  background-image: url("/img/boutique/tshirt-noir-et-jaune.jpg");
+  background-image: url("../img/boutique/tshirt-noir-et-jaune.jpg");
 }
 
 .boutique__grid__product:nth-child(5) {
-  background-image: url("/img/boutique/tshirt-jaune.jpg");
+  background-image: url("../img/boutique/tshirt-jaune.jpg");
 }
 
 .boutique__grid__product:nth-child(6) {
-  background-image: url("/img/boutique/tshirt-blanc.jpg");
+  background-image: url("../img/boutique/tshirt-blanc.jpg");
 }
 
 .boutique__grid__product:nth-child(7) {
-  background-image: url("/img/boutique/casquette-noir.jpg");
+  background-image: url("../img/boutique/casquette-noir.jpg");
 }
 
 .boutique__grid__product:nth-child(8) {
-  background-image: url("/img/boutique/casquette-jaune.jpg");
+  background-image: url("../img/boutique/casquette-jaune.jpg");
 }
 
 .boutique__grid__product:nth-child(9) {
-  background-image: url("/img/boutique/bundle.jpg");
+  background-image: url("../img/boutique/bundle.jpg");
 }
 
 .boutique__grid__product:nth-child(10) {
-  background-image: url("/img/boutique/tshirt-noir-et-jaune.jpg");
+  background-image: url("../img/boutique/tshirt-noir-et-jaune.jpg");
 }
 
 .boutique__grid__product:nth-child(11) {
-  background-image: url("/img/boutique/tshirt-jaune.jpg");
+  background-image: url("../img/boutique/tshirt-jaune.jpg");
 }
 
 .boutique__grid__product:nth-child(12) {
-  background-image: url("/img/boutique/tshirt-blanc.jpg");
+  background-image: url("../img/boutique/tshirt-blanc.jpg");
 }
 
 .planning {
@@ -918,6 +918,10 @@ textarea {
 }
 
 .planning__selection div p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   margin-left: 30px;
   color: #1e1e1f;
   font-family: "Graduate";
@@ -1123,12 +1127,12 @@ h4 {
 
 .categories-top .categories__category:first-child {
   margin-right: 24px;
-  background-image: url("/img/categories/category__planning.jpg");
+  background-image: url("../img/categories/category__planning.jpg");
 }
 
 .categories-top .categories__category:last-child {
   margin-left: 24px;
-  background-image: url("/img/categories/category__booking.jpg");
+  background-image: url("../img/categories/category__booking.jpg");
 }
 
 .categories-top .background-color-yellow {
@@ -1154,12 +1158,12 @@ h4 {
 
 .categories-esport .categories__category:first-child {
   margin-right: 24px;
-  background-image: url("/img/categories/category__createteam.jpg");
+  background-image: url("../img/categories/category__createteam.jpg");
 }
 
 .categories-esport .categories__category:last-child {
   margin-left: 24px;
-  background-image: url("/img/categories/category__foundteam.jpg");
+  background-image: url("../img/categories/category__foundteam.jpg");
 }
 
 .slider__bottom {
@@ -1212,12 +1216,12 @@ h4 {
 }
 
 .slider__bottom__images__image:nth-child(1) {
-  background-image: url("/img/slider/slide__bottom__img--180712.jpg");
+  background-image: url("../img/slider/slide__bottom__img--180712.jpg");
 }
 
 .slider__bottom__images__image:nth-child(2) {
   display: none;
-  background-image: url("/img/slider/slide__bottom__img--180712.jpg");
+  background-image: url("../img/slider/slide__bottom__img--180712.jpg");
 }
 
 .categories-bottom {
@@ -1227,12 +1231,12 @@ h4 {
 
 .categories-bottom .categories__category:first-child {
   margin-right: 24px;
-  background-image: url("/img/categories/category__blog.jpg");
+  background-image: url("../img/categories/category__blog.jpg");
 }
 
 .categories-bottom .categories__category:last-child {
   margin-left: 24px;
-  background-image: url("/img/categories/category__store.jpg");
+  background-image: url("../img/categories/category__store.jpg");
 }
 
 .categories-bottom .background-color-yellow {
@@ -1709,19 +1713,19 @@ h4 {
 }
 
 .slider__container__images__image:nth-child(1) {
-  background-image: url("/img/slider/slide__img--rektvsolympus.jpg");
+  background-image: url("../img/slider/slide__img--rektvsolympus.jpg");
 }
 
 .slider__container__images__image:nth-child(2) {
-  background-image: url("/img/slider/slide__img--widowtournament.jpg");
+  background-image: url("../img/slider/slide__img--widowtournament.jpg");
 }
 
 .slider__container__images__image:nth-child(3) {
-  background-image: url("/img/slider/slide__img--fifatournament.jpg");
+  background-image: url("../img/slider/slide__img--fifatournament.jpg");
 }
 
 .slider__container__images__image:nth-child(4) {
-  background-image: url("/img/slider/slide__img--csgo.jpg");
+  background-image: url("../img/slider/slide__img--csgo.jpg");
 }
 
 @media (max-width: 768px) {

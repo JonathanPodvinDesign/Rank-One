@@ -22,20 +22,20 @@ $("#bundle").click(function () {
 $(".product__image__thumbnails__thumbnail:nth-child(1)").click(function () {
   $(".product__image").css(
     "background-image",
-    "url('/img/products/casquettenoir/casquettenoir.jpg"
+    "url('img/products/casquettenoir/casquettenoir.jpg"
   );
 });
 
 $(".product__image__thumbnails__thumbnail:nth-child(2)").click(function () {
   $(".product__image").css(
     "background-image",
-    "url('/img/products/casquettenoir/casquettenoir--2.jpg"
+    "url('img/products/casquettenoir/casquettenoir--2.jpg"
   );
 });
 
 $(".product__image__thumbnails__thumbnail:nth-child(3)").click(function () {
   $(".product__image").css(
     "background-image",
-    "url('/img/products/casquettenoir/casquettenoir--3.jpg"
+    "url('img/products/casquettenoir/casquettenoir--3.jpg"
   );
 });

@@ -3,7 +3,7 @@
   <!-- HEAD -->
 
   <head>
-    <title>Rank One - eSport Bars</title>
+    <title>Rank One - Contact</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,12 +29,24 @@
   <!-- BODY -->
 
   <body>
-    <!-- HEADER -->
-    <?php include'header.php';?>
+    <!-- background -->
+    <div class="background">
+      <div>&nbsp</div>
+      <div>&nbsp</div>
+      <div>&nbsp</div>
+      <div>&nbsp</div>
+    </div>
+
+    <!-- HEADER --------->
+    <!-- HEADER --------->
+    <!-- HEADER --------->
+    <?php
+      include 'header-yellow.php';
+    ?>
 
     <!-- MAIN SECTION -->
     <!-- CONTACT -->
-    <section class="contact">
+    <section class="main contact margin-top-fixed-for-sticky-menu">
       <div class="contact__container">
         <!-- CONTACT INFORMATION -->
         <div class="contact__container__info">
@@ -110,16 +122,31 @@
               placeholder="Message ..."
               class="contact-form-textarea"
             ></textarea>
-            <a href=""><button type="submit">Envoyer</button></a>
+            <a href=""
+              ><button class="secondary-button" type="submit">
+                Envoyer
+              </button></a
+            >
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Div Fix Small Height Page -->
+    <div class="fix__small__height__page"></div>
+
     <!-- FOOTER -->
-    <?php include 'footer.php';?>
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <?php
+      include 'footer.php';
+    ?>
 
     <!-- SCRIPT -->
-    <?php include"script.php";?>
+    <!-- SCRIPT -->
+    <!-- SCRIPT -->
+    <?php
+      include 'script.php';
+    ?>
   </body>
 </html>
