@@ -1,0 +1,54 @@
+.histoire {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 48px !important;
+
+    .image-histoire {
+        align-self: center;
+        width: 1090px;
+
+        & p {
+            text-align: right;
+            font-family: $secondary-font;
+            font-size: 26px;
+        }
+    }
+
+    .histoire-text {
+        width: 622px;
+        align-self: center;
+        margin-bottom: 48px;
+
+        & p {
+            font-family: $primary-font;
+            font-size: 20px;
+        }
+
+
+        &__quote {
+            width: 622px;
+            align-self: center;
+            position: relative;
+            padding: 48px 0;
+
+            & h5 {
+                z-index: 50;
+                position: relative;
+                font-family: $third-font;
+                font-size: 32px;
+                text-align: left;
+                padding-left: 30%;
+
+                & span {
+                    z-index: -1;
+                    position: absolute;
+                    top: -15px;
+                    left: 30%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+}

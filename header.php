@@ -13,9 +13,9 @@
               <li class="submenu--bar">
                 <div><i class="fas fa-cocktail"></i>Bar</div>
                 <ul class="submenu--bar__list">
-                  <li><a href="#">L'histoire</a></li>
+                  <li><a href="histoire.php">L'histoire</a></li>
                   <li><a href="#">Horaires</a></li>
-                  <li><a href="#">La carte</a></li>
+                  <li><a href="carte.php">La carte</a></li>
                 </ul>
               </li>
               <li class="submenu--esport">

@@ -1,0 +1,25 @@
+.carte {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 48px !important;
+
+  &__categories {
+    width: 1190px;
+
+    &__category {
+      width: calc((100% / 2) - (48px / 2));
+
+      &__title {
+        background-color: $secondary-color;
+
+        & h6 {
+          font-size: 21px;
+          font-family: $third-color;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

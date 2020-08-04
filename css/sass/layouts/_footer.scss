@@ -7,9 +7,11 @@
   align-items: center;
   height: 444px;
   background-color: $secondary-color;
+
   a {
     img {
       height: 75px;
+
       @media (max-width: 576px) {
         height: 75px;
       }
@@ -25,6 +27,7 @@
   align-items: center;
   height: 444px;
   background-color: $secondary-color;
+
   &--logo--container {
     a {
       .footer__logo__social--logo {
@@ -32,12 +35,15 @@
       }
     }
   }
+
   &--icons {
     margin-top: 35px;
+
     a {
       color: $primary-color;
       margin-right: 20px;
     }
+
     a:last-child {
       margin-right: 0;
     }

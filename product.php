@@ -35,7 +35,7 @@
     <!-- HEADER --------->
     <!-- HEADER --------->
     <?php
-      include 'header.php';
+      include 'header-yellow.php';
     ?>
 
     <div class="main main-white margin-top-fixed-for-sticky-menu">

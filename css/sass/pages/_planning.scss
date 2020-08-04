@@ -56,7 +56,7 @@
         background-color: $secondary-color;
 
         &:hover {
-          background-color: #fff;
+          background-color: $fourth-color;
           transition: 180ms ease-in-out;
         }
       }

@@ -1,74 +1,70 @@
 .blog-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 48px;
+
+  .image-article {
+    align-self: center;
+    width: 1090px;
+
+    & p {
+      text-align: right;
+      font-family: $secondary-font;
+      font-size: 26px;
+    }
+  }
+
+  .blog-text {
+    width: 622px;
+    align-self: center;
+
+    & p {
+      font-family: $primary-font;
+      font-size: 20px;
+    }
+
+    &__quote {
+      width: 622px;
+      align-self: center;
+      position: relative;
+      padding: 48px 0;
+
+      & h5 {
+        font-family: $third-font;
+        font-size: 32px;
+        text-align: left;
+        padding-left: 30%;
+      }
+    }
+  }
+
+  .blog-share {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-    padding-top: 48px;
+    align-items: center;
+    width: 622px;
+    align-self: center;
+    padding: 48px 0;
 
-    .image-article {
-        align-self: center;
-        width: 1090px;
-
-        & p {
-            text-align: right;
-            font-family: $secondary-font;
-            font-size: 26px;
-        }
+    & p {
+      font-family: $secondary-font;
+      font-size: 16px;
     }
 
-    .blog-text {
-        width: 622px;
-        align-self: center;
+    &__icons {
+      display: flex;
+      padding-left: 16px;
 
-        & p {
-            font-family: $primary-font;
-            font-size: 20px;
-        }
-
-        &__quote {
-            width: 622px;
-            align-self: center;
-            position: relative;
-            padding: 48px 0;
-
-            & h5 {
-                font-family: $third-font;
-                font-size: 32px;
-                text-align: left;
-                padding-left: 30%;
-            }
-        }
-    }
-
-    .blog-share {
+      &__icon {
         display: flex;
+        justify-content: center;
         align-items: center;
-        width: 622px;
-        align-self: center;
-        padding: 48px 0;
-
-        & p {
-            font-family: $secondary-font;
-            font-size: 16px;
-        }
-
-        &__icons {
-            display: flex;
-            padding-left: 16px;
-
-            &__icon {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 30px;
-                height: 30px;
-                background-color: $secondary-color;
-                margin-left: 16px;
-
-                & a {
-                    & img {}
-                }
-            }
-        }
+        width: 30px;
+        height: 30px;
+        background-color: $secondary-color;
+        margin-left: 16px;
+      }
     }
+  }
 }
