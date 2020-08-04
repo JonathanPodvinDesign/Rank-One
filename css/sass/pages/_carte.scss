@@ -6,18 +6,68 @@
   padding-top: 48px !important;
 
   &__categories {
-    width: 1190px;
+    width: 992px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0;
 
-    &__category {
+    &__col {
       width: calc((100% / 2) - (48px / 2));
+      display: flex;
+      flex-direction: column;
 
-      &__title {
-        background-color: $secondary-color;
+      &__boissons {
+        margin-bottom: 48px;
+        &__title {
+          background-color: $secondary-color;
+          padding: 20px;
+          margin-bottom: 30px;
 
-        & h6 {
-          font-size: 21px;
-          font-family: $third-color;
-          text-transform: uppercase;
+          & h6 {
+            font-size: 21px;
+            color: $primary-color;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: $third-font;
+            letter-spacing: 1.6px;
+          }
+        }
+
+        &__names {
+          display: flex;
+
+          & div {
+            flex-grow: 6;
+
+            & p {
+              font-family: $secondary-font;
+              font-size: 21px;
+              margin-bottom: 30px;
+            }
+
+            & p:last-child {
+              margin-bottom: 0;
+            }
+          }
+
+          & div:first-child {
+            overflow: hidden;
+
+            & p {
+              font-weight: bold;
+            }
+          }
+
+          & div:last-child {
+            display: flex;
+            flex-direction: column;
+
+            & p {
+              font-weight: lighter;
+              align-self: flex-end;
+            }
+          }
         }
       }
     }
