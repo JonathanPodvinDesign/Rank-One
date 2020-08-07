@@ -16,12 +16,12 @@ $(document).ready(function () {
   });
 
   // dropdown menu
-  $(".planning__selection__games").click(function () {
-    $(".planning__selection__dropdown--games").toggleClass("display--flex");
+  $(".evennement__selection__games").click(function () {
+    $(".evennement__selection__dropdown--games").toggleClass("display--flex");
   });
 
-  $(".planning__selection__villes").click(function () {
-    $(".planning__selection__dropdown--villes").toggleClass("display--flex");
+  $(".evennement__selection__villes").click(function () {
+    $(".evennement__selection__dropdown--villes").toggleClass("display--flex");
   });
 
   // END

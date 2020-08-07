@@ -14,14 +14,13 @@
                 <div><i class="fas fa-cocktail"></i>Bar</div>
                 <ul class="submenu--bar__list">
                   <li><a href="histoire.php">L'histoire</a></li>
-                  <li><a href="#">Horaires</a></li>
                   <li><a href="carte.php">La carte</a></li>
                 </ul>
               </li>
               <li class="submenu--esport">
                 <div><i class="fas fa-headset"></i>eSport</div>
                 <ul class="submenu--esport__list">
-                  <li><a href="planning.php">Planning</a></li>
+                  <li><a href="evennements.php">Événnements</a></li>
                   <li><a href="#">Coaching</a></li>
                   <li><a href="#">Créer une team</a></li>
                   <li><a href="#">Trouver une team</a></li>
@@ -49,8 +48,8 @@
                 <div><i class="fas fa-user"></i>Compte</div>
                 <ul class="submenu--account__list">
                   <li><a href="#">Mon compte</a></li>
-                  <li><a href="#">Mon pannier</a></li>
-                  <li><a href="#">Mon planning</a></li>
+                  <li><a href="panier.php">Mon panier</a></li>
+                  <li><a href="planning.php">Mon planning</a></li>
                   <li><a href="#">Connection</a></li>
                 </ul>
               </li>

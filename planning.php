@@ -1,206 +1,118 @@
 <!DOCTYPE html>
 <html lang="fr">
-<!-- HEAD -->
+  <!-- HEAD -->
 
-<head>
-  <title>Rank One - Boutique</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- CSS -->
-  <!-- CSS__fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Graduate&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/fonts/fonts.css" />
-  <!-- CSS__fontawesome -->
-  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
-  <!-- CSS__flexbos -->
-  <link rel="stylesheet" href="assets/flexbox/css/flexboxgrid.css" />
-  <!-- CSS__style -->
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <head>
+    <title>Rank One - Mon planning</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <!-- CSS__fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Graduate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <!-- CSS__fontawesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <!-- CSS__flexbos -->
+    <link rel="stylesheet" href="assets/flexbox/css/flexboxgrid.css" />
+    <!-- CSS__style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<!-- BODY -->
-<!-- BODY -->
-<!-- BODY -->
+  <!-- BODY -->
+  <!-- BODY -->
+  <!-- BODY -->
 
-<body>
-  <!-- HEADER --------->
-  <!-- HEADER --------->
-  <!-- HEADER --------->
-  <?php
+  <body>
+    <!-- HEADER --------->
+    <!-- HEADER --------->
+    <!-- HEADER --------->
+    <?php
       include 'header-yellow.php';
-  ?>
+    ?>
 
-  <div class="main-white margin-top-fixed-for-sticky-menu">
-
-    <!-- PLANNING -->
-    <!-- PLANNING -->
-    <!-- PLANNING -->
-
-    <div class="planning">
-      <!-- PLANNING SELECTION -->
-      <div class="planning__selection">
-        <div class="planning__selection__games">
-          <p>Jeux</p>
-          <span class="arrow"></span>
-          <div class="planning__selection__dropdown planning__selection__dropdown--games">
-            <p>Counter Strike</p>
-            <p>Dota 2</p>
-            <p>FIFA 2019</p>
-            <p>Fortnite</p>
-            <p>Hearthstone</p>
-            <p>League of Legends</p>
-            <p>Overwatch</p>
+    <div class="main-white">
+      <!-- PLANNING -->
+      <!-- PLANNING -->
+      <!-- PLANNING -->
+      <div class="planning main margin-top-fixed-for-sticky-menu">
+        <!-- title -->
+        <div class="categories__title categories__title--planning">
+          <div class="hook">
+            <img src="img/hook-yellow.svg" alt="Hook" />
           </div>
+          <h2>
+            Mon<br />
+            Planning
+          </h2>
         </div>
-        <div class="planning__selection__villes">
-          <p>Villes</p>
-          <span class="arrow"></span>
-          <div class="planning__selection__dropdown planning__selection__dropdown--villes">
-            <p>Lyon</p>
-            <p>Grenoble</p>
+        <div class="planning__categories">
+          <div class="planning__categories__event">
+            <p class="planning__categories__event__name">Tournoi CSGO</p>
+            <p class="planning__categories__event__ville">Grenoble</p>
+            <p class="planning__categories__event__date">18.07.18</p>
+            <p class="planning__categories__event__heure">20h</p>
+            <div class="planning__categories__event__remove">
+              <span>&nbsp</span>
+              <span>&nbsp</span>
+            </div>
+          </div>
+          <div class="planning__categories__event">
+            <p class="planning__categories__event__name">Tournoi CSGO</p>
+            <p class="planning__categories__event__ville">Grenoble</p>
+            <p class="planning__categories__event__date">18.07.18</p>
+            <p class="planning__categories__event__heure">20h</p>
+            <div class="planning__categories__event__remove">
+              <span>&nbsp</span>
+              <span>&nbsp</span>
+            </div>
+          </div>
+          <div class="planning__categories__event">
+            <p class="planning__categories__event__name">Tournoi CSGO</p>
+            <p class="planning__categories__event__ville">Grenoble</p>
+            <p class="planning__categories__event__date">18.07.18</p>
+            <p class="planning__categories__event__heure">20h</p>
+            <div class="planning__categories__event__remove">
+              <span>&nbsp</span>
+              <span>&nbsp</span>
+            </div>
+          </div>
+          <div class="planning__categories__event">
+            <p class="planning__categories__event__name">Tournoi CSGO</p>
+            <p class="planning__categories__event__ville">Grenoble</p>
+            <p class="planning__categories__event__date">18.07.18</p>
+            <p class="planning__categories__event__heure">20h</p>
+            <div class="planning__categories__event__remove">
+              <span>&nbsp</span>
+              <span>&nbsp</span>
+            </div>
           </div>
         </div>
       </div>
-      <!-- GRID -->
-      <div class="planning__grid">
-        <!-- EVENT 1 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">02.07.18</p>
-            <p class="planning__grid__event__title">Widowmaker</p>
-            <p class="planning__grid__event__team">Duel</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 2 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">03.07.18</p>
-            <p class="planning__grid__event__title">League of Legends</p>
-            <p class="planning__grid__event__team">Tournoi</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 3 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">04.07.18</p>
-            <p class="planning__grid__event__title">Counter strike</p>
-            <p class="planning__grid__event__team">Rekt vs Olymp'Us</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 4 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">05.07.18</p>
-            <p class="planning__grid__event__title">Hearthstone</p>
-            <p class="planning__grid__event__team">Tournoi</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 5 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">06.07.18</p>
-            <p class="planning__grid__event__title">Dota 2</p>
-            <p class="planning__grid__event__team">FOF vs KOS</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 6 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">07.07.18</p>
-            <p class="planning__grid__event__title">Overwatch</p>
-            <p class="planning__grid__event__team">Tournoi</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 7 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">09.07.18</p>
-            <p class="planning__grid__event__title">Fortnite</p>
-            <p class="planning__grid__event__team">Tournoi</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 8 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">10.07.18</p>
-            <p class="planning__grid__event__title">Fifa 2018</p>
-            <p class="planning__grid__event__team">Tournoi</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-        <!-- EVENT 9 -->
-        <div class="planning__grid__event">
-          <div class="planning__grid__event__informations">
-            <p class="planning__grid__event__date">11.07.18</p>
-            <p class="planning__grid__event__title">Les compets</p>
-            <p class="planning__grid__event__team">Pompettes</p>
-          </div>
-          <a href="event.html">
-            <div class="third-button">S'inscrire</div>
-          </a>
-        </div>
-      </div>
+
+      <!-- Div Fix Small Height Page -->
+      <div class="fix__small__height__page"></div>
     </div>
 
-    <!-- PAGINATION -->
-    <!-- PAGINATION -->
-    <!-- PAGINATION -->
-
-    <div class="pagination">
-      <div class="selection">
-        <div><a href="#">
-            <<</a> </div> <div><a href="#">
-                <</a> </div> <div><a href="#">1</a></div>
-        <div><a href="#">2</a></div>
-        <div><a href="#">3</a></div>
-        <div><a href="#">4</a></div>
-        <div><a href="#">5</a></div>
-        <div><a href="#">></a></div>
-        <div><a href="#">>></a></div>
-      </div>
-    </div>
-  </div>
-  </div>
-
-  <!-- FOOTER -->
-  <!-- FOOTER -->
-  <!-- FOOTER -->
-  <?php
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <?php
       include 'footer-social.php';
   ?>
 
-  <!-- SCRIPT -->
-  <!-- SCRIPT -->
-  <!-- SCRIPT -->
-  <?php
+    <!-- SCRIPT -->
+    <!-- SCRIPT -->
+    <!-- SCRIPT -->
+    <?php
       include 'script.php';
   ?>
-</body>
-
+  </body>
 </html>
