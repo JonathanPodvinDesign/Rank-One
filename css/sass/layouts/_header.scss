@@ -157,16 +157,25 @@
 
 .header--yellow {
   background-color: $secondary-color;
-
-  & .nav__bar {
-    &__menu {
-      & ul {
-        & li {
-          & div {
-            color: $primary-color !important;
-
-            & a {
+  & nav {
+    & .nav__bar {
+      &__menu {
+        & ul {
+          & li {
+            & div {
               color: $primary-color !important;
+
+              & a {
+                color: $primary-color !important;
+              }
+            }
+            & ul {
+              background-color: $primary-color;
+              & li {
+                a {
+                  color: $secondary-color;
+                }
+              }
             }
           }
         }

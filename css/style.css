@@ -1843,12 +1843,20 @@ h4 {
   background-color: #fdc300;
 }
 
-.header--yellow .nav__bar__menu ul li div {
+.header--yellow nav .nav__bar__menu ul li div {
   color: #1e1e1f !important;
 }
 
-.header--yellow .nav__bar__menu ul li div a {
+.header--yellow nav .nav__bar__menu ul li div a {
   color: #1e1e1f !important;
+}
+
+.header--yellow nav .nav__bar__menu ul li ul {
+  background-color: #1e1e1f;
+}
+
+.header--yellow nav .nav__bar__menu ul li ul li a {
+  color: #fdc300;
 }
 
 .sticky__menu {
