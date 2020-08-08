@@ -43,7 +43,7 @@
           <li class="submenu--account">
             <div><i class="fas fa-user"></i>Compte</div>
             <ul class="submenu--account__list">
-              <li><a href="#">Mon compte</a></li>
+              <li><a href="compte.php">Mon compte</a></li>
               <li><a href="panier.php">Mon panier</a></li>
               <li><a href="planning.php">Mon planning</a></li>
               <li>

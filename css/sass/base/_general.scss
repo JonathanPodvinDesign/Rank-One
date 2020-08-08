@@ -59,7 +59,8 @@ textarea {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  width: calc(100vw - 17px);
+  // width: calc(100vw - 17px);
+  width: 100vw;
   height: 100vh;
   pointer-events: none;
 

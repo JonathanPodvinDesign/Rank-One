@@ -1,0 +1,46 @@
+.compte {
+  display: flex;
+  flex-direction: column;
+  // INFORMATIONS
+  &__informations {
+    display: flex;
+    flex-direction: column;
+    width: 1090px;
+    padding: 48px;
+    align-self: center;
+    background-color: $secondary-color;
+    margin-bottom: 48px;
+    // CHOICES
+    &__choices {
+      display: flex;
+      justify-content: space-between;
+      &__col {
+        display: flex;
+        flex-direction: column;
+        width: calc(50% - 24px);
+
+        & input {
+          padding: 20px;
+          margin-bottom: 48px;
+        }
+
+        & input:last-child {
+          margin-bottom: 0;
+        }
+
+        & select {
+          padding: 18.9px;
+          margin-bottom: 48px;
+        }
+      }
+    }
+    // BUTTON
+    & button {
+      margin-top: 48px;
+      align-self: center;
+      position: relative;
+      width: 230px;
+      height: 60px;
+    }
+  }
+}
