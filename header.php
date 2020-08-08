@@ -22,7 +22,7 @@
             <ul class="submenu--esport__list">
               <li><a href="evennements.php">Événnements</a></li>
               <li><a href="#">Coaching</a></li>
-              <li><a href="#">Créer une team</a></li>
+              <li><a href="creerteam.php">Créer une team</a></li>
               <li><a href="#">Trouver une team</a></li>
               <li><a href="#">Ranking</a></li>
             </ul>

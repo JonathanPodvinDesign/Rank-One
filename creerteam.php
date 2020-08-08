@@ -3,7 +3,7 @@
   <!-- HEAD -->
 
   <head>
-    <title>Rank One - Créer un compte</title>
+    <title>Rank One - Créer une team</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -38,34 +38,25 @@
       include 'header-yellow.php';
     ?>
 
-    <!-- COMPTE -->
-    <!-- COMPTE -->
-    <!-- COMPTE -->
-    <div class="compte main-white margin-top-fixed-for-sticky-menu">
+    <!-- team -->
+    <!-- team -->
+    <!-- team -->
+    <div class="team main-white margin-top-fixed-for-sticky-menu">
       <!-- title -->
-      <div class="categories__title categories__title--compte">
+      <div class="categories__title categories__title--team">
         <div class="hook">
           <img src="img/hook-yellow.svg" alt="Hook" />
         </div>
         <h2>
-          Créer un<br />
-          Compte
+          Créer une<br />
+          Team
         </h2>
       </div>
-      <!-- compte informations -->
-      <div class="compte__informations">
-        <div class="compte__informations__choices">
+      <!-- team informations -->
+      <div class="team__informations">
+        <div class="team__informations__choices">
           <!-- Col Left -->
-          <div class="compte__informations__choices__col">
-            <input type="email" placeholder="Email" />
-            <input type="text" placeholder="Prénom" />
-            <input type="text" placeholder="Nom" />
-            <input type="date" placeholder="Date de naissance" />
-            <input type="text" placeholder="Pseudo" />
-            <input type="text" placeholder="Lo*********" />
-          </div>
-          <!-- Col Right -->
-          <div class="compte__informations__choices__col">
+          <div class="team__informations__choices__col">
             <select name="" id="">
               <option value="None">Choisir un jeu</option>
               <option value="Counter Strike">Counter Strike</option>
@@ -82,10 +73,19 @@
               <option value="Grenoble">Grenoble</option>
               <option value="Lyon">Lyon</option>
             </select>
-            <input type="text" placeholder="Adresse" />
-            <input type="text" placeholder="Ville" />
-            <input type="text" placeholder="Code postal" />
-            <input type="text" placeholder="Téléphone" class="mb-0" />
+            <input type="text" placeholder="Nom de l'équipe" />
+            <input type="text" placeholder="Acronyme (2 à 4 lettres)" />
+            <input type="text" placeholder="Leader" />
+            <input type="text" placeholder="Coach" />
+          </div>
+          <!-- Col Right -->
+          <div class="team__informations__choices__col">
+            <input type="text" placeholder="Joueur 1" />
+            <input type="text" placeholder="Joueur 2" />
+            <input type="text" placeholder="Joueur 3" />
+            <input type="text" placeholder="Joueur 4" />
+            <input type="text" placeholder="Joueur 5" />
+            <input type="text" placeholder="Joueur 6" />
           </div>
         </div>
         <button class="secondary-button">Valider</button>
