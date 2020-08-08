@@ -200,7 +200,7 @@
             une team prête <br />
             à rentrer dans l'arène
           </h4>
-          <a href="#"
+          <a href="creerteam.php"
             ><button class="primary-button">
               Créer une team
             </button></a
