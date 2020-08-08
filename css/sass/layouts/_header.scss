@@ -176,7 +176,10 @@
             & ul {
               background-color: $primary-color;
               & li {
-                a {
+                & a {
+                  color: $secondary-color;
+                }
+                & p {
                   color: $secondary-color;
                 }
               }

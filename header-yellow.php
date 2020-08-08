@@ -46,7 +46,9 @@
               <li><a href="#">Mon compte</a></li>
               <li><a href="panier.php">Mon panier</a></li>
               <li><a href="planning.php">Mon planning</a></li>
-              <li><a href="#">Connection</a></li>
+              <li>
+                <p class="submenu--account__list__login">Connection</p>
+              </li>
             </ul>
           </li>
         </ul>

@@ -1863,6 +1863,10 @@ h4 {
   color: #fdc300;
 }
 
+.header--yellow nav .nav__bar__menu ul li ul li p {
+  color: #fdc300;
+}
+
 .sticky__menu {
   z-index: 1000;
   position: fixed;
