@@ -65,30 +65,20 @@
             </div>
           </div>
           <div class="planning__categories__event">
-            <p class="planning__categories__event__name">Tournoi CSGO</p>
+            <p class="planning__categories__event__name">Fatale Duel</p>
             <p class="planning__categories__event__ville">Grenoble</p>
-            <p class="planning__categories__event__date">18.07.18</p>
-            <p class="planning__categories__event__heure">20h</p>
+            <p class="planning__categories__event__date">25.07.18</p>
+            <p class="planning__categories__event__heure">21h</p>
             <div class="planning__categories__event__remove">
               <span>&nbsp</span>
               <span>&nbsp</span>
             </div>
           </div>
           <div class="planning__categories__event">
-            <p class="planning__categories__event__name">Tournoi CSGO</p>
+            <p class="planning__categories__event__name">Coaching</p>
             <p class="planning__categories__event__ville">Grenoble</p>
-            <p class="planning__categories__event__date">18.07.18</p>
-            <p class="planning__categories__event__heure">20h</p>
-            <div class="planning__categories__event__remove">
-              <span>&nbsp</span>
-              <span>&nbsp</span>
-            </div>
-          </div>
-          <div class="planning__categories__event">
-            <p class="planning__categories__event__name">Tournoi CSGO</p>
-            <p class="planning__categories__event__ville">Grenoble</p>
-            <p class="planning__categories__event__date">18.07.18</p>
-            <p class="planning__categories__event__heure">20h</p>
+            <p class="planning__categories__event__date">27.07.18</p>
+            <p class="planning__categories__event__heure">18h</p>
             <div class="planning__categories__event__remove">
               <span>&nbsp</span>
               <span>&nbsp</span>
