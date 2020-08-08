@@ -98,9 +98,13 @@
                 text-align: center;
                 margin: 0;
 
-                a {
+                & a {
                   font-family: $primary-font;
                   color: $primary-color;
+                }
+
+                & p {
+                  cursor: pointer;
                 }
               }
             }

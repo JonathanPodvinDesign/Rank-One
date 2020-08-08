@@ -1,0 +1,82 @@
+.popupconnection {
+  z-index: 1000;
+  position: absolute;
+  top: -60px;
+  width: 100vw;
+  height: calc(100vh + 60px);
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  &__popup {
+    position: relative;
+    height: 500px;
+    width: calc(1090px - (48px * 2));
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // CLOSE BUTTON
+    &__close-button {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      height: 30px;
+      width: 30px;
+
+      & div {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1001;
+        cursor: pointer;
+        width: 30px;
+        height: 5px;
+        background-color: $primary-color;
+        top: 50%;
+      }
+
+      & div:first-child {
+        transform: rotate(45deg);
+      }
+
+      & div:last-child {
+        transform: rotate(-45deg);
+      }
+    }
+    // TITLE
+    &__title {
+      display: flex;
+      align-self: center;
+      & p {
+        font-family: $primary-font;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 25px;
+      }
+
+      & p:nth-child(2) {
+        padding: 0 40px;
+      }
+    }
+    // CHOICE
+    &__choice {
+      align-self: center;
+      display: flex;
+      margin-top: 96px;
+      & div {
+        margin: 0 24px;
+        & p {
+          font-size: 12px;
+          text-align: center;
+          margin-bottom: 12px;
+        }
+        & button {
+          width: 230px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}

@@ -60,5 +60,15 @@ $(document).ready(function () {
       $(".margin-top-fixed-for-sticky-menu").css("padding-top", "0px");
     }
   });
+
+  // connection click
+  $(".submenu--account__list__login").click(function () {
+    $(".popupconnection").css("display", "flex");
+  });
+
+  // close connection
+  $(".popupconnection__popup__close-button").click(function () {
+    $(".popupconnection").css("display", "none");
+  });
   // END
 });
