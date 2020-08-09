@@ -16,6 +16,7 @@ $(document).ready(function () {
   });
 
   // dropdown menu
+  // evennement
   $(".evennement__selection__games").click(function () {
     $(".evennement__selection__dropdown--games").toggleClass("display--flex");
   });
@@ -24,5 +25,17 @@ $(document).ready(function () {
     $(".evennement__selection__dropdown--villes").toggleClass("display--flex");
   });
 
+  //  ranking
+  $(".ranking__selection__games").click(function () {
+    $(".ranking__selection__dropdown--games").toggleClass("display--flex");
+  });
+
+  $(".ranking__selection__mois").click(function () {
+    $(".ranking__selection__dropdown--mois").toggleClass("display--flex");
+  });
+
+  $(".ranking__selection__villes").click(function () {
+    $(".ranking__selection__dropdown--villes").toggleClass("display--flex");
+  });
   // END
 });

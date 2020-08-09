@@ -1142,6 +1142,158 @@ textarea {
   background-image: url("../img/planning/110718.jpg");
 }
 
+.ranking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ranking__selection {
+  position: relative;
+  width: 1090px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-top: 48px;
+}
+
+.ranking__selection div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  max-width: calc((100% - 96px) / 3);
+  -webkit-box-flex: calc((100% - 96px) / 3);
+      -ms-flex: calc((100% - 96px) / 3);
+          flex: calc((100% - 96px) / 3);
+  background-color: #fdc300;
+  margin-right: 48px;
+  cursor: pointer;
+}
+
+.ranking__selection div p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-left: 30px;
+  color: #1e1e1f;
+  font-family: "Graduate";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.ranking__selection div .arrow {
+  margin-right: 30px;
+}
+
+.ranking__selection div:last-child {
+  margin-right: 0;
+}
+
+.ranking__selection .ranking__selection__dropdown {
+  z-index: 99;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 96px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.ranking__selection .ranking__selection__dropdown p {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Source Sans Pro";
+  font-size: 21px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin-left: 0;
+  background-color: #fdc300;
+}
+
+.ranking__selection .ranking__selection__dropdown p:hover {
+  background-color: #ffce54;
+  -webkit-transition: 180ms ease-in-out;
+  transition: 180ms ease-in-out;
+}
+
+.ranking__list {
+  z-index: 90;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 1090px;
+  margin-top: 48px;
+  padding: 24px;
+  background-color: #fdc300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ranking__list__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ranking__list__row p {
+  font-family: "Graduate";
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+
+.ranking__list__row p:nth-child(1) {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+
+.ranking__list__row p:nth-child(2) {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+.ranking__list__row p:nth-child(3) {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+.ranking__list__row p:nth-child(4) {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  text-align: right;
+  padding-bottom: 0;
+}
+
 .categories__title--carte {
   padding-top: 0;
 }

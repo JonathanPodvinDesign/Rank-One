@@ -1,0 +1,111 @@
+.ranking {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__selection {
+    position: relative;
+    width: 1090px;
+    display: flex;
+    align-self: center;
+    margin-top: 48px;
+
+    & div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+      max-width: calc((100% - 96px) / 3);
+      flex: calc((100% - 96px) / 3);
+      background-color: $secondary-color;
+      margin-right: 48px;
+      cursor: pointer;
+
+      & p {
+        user-select: none;
+        margin-left: 30px;
+        color: $primary-color;
+        font-family: $third-font;
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+
+      & .arrow {
+        margin-right: 30px;
+      }
+    }
+
+    & div:last-child {
+      margin-right: 0;
+    }
+
+    & .ranking__selection__dropdown {
+      z-index: 99;
+      display: none;
+      position: absolute;
+      width: 100%;
+      top: 96px;
+      flex-direction: column;
+      width: 100%;
+
+      & p {
+        width: 100%;
+        align-self: center;
+        font-family: $primary-font;
+        font-size: 21px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        margin-left: 0;
+        background-color: $secondary-color;
+
+        &:hover {
+          background-color: $fourth-color;
+          transition: 180ms ease-in-out;
+        }
+      }
+    }
+  }
+
+  // LIST
+  &__list {
+    z-index: 90;
+    align-self: center;
+    width: 1090px;
+    margin-top: 48px;
+    padding: 24px;
+    background-color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+
+    &__row {
+      display: flex;
+      justify-content: space-between;
+
+      & p {
+        font-family: $third-font;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 24px;
+      }
+
+      & p:nth-child(1) {
+        flex-basis: 15%;
+      }
+
+      & p:nth-child(2) {
+        flex-basis: 35%;
+      }
+
+      & p:nth-child(3) {
+        flex-basis: 35%;
+      }
+
+      & p:nth-child(4) {
+        flex-basis: 15%;
+        text-align: right;
+        padding-bottom: 0;
+      }
+    }
+  }
+}

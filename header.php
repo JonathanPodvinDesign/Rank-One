@@ -24,7 +24,7 @@
               <li><a href="#">Coaching</a></li>
               <li><a href="creerteam.php">Créer une team</a></li>
               <li><a href="#">Trouver une team</a></li>
-              <li><a href="#">Ranking</a></li>
+              <li><a href="ranking.php">Ranking</a></li>
             </ul>
           </li>
           <li>
