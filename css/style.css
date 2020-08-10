@@ -1203,6 +1203,10 @@ textarea {
   width: 45%;
 }
 
+.findteam__list__row p:nth-child(1) a {
+  color: white;
+}
+
 .findteam__list__row p:nth-child(2) {
   text-align: center;
   width: 35%;

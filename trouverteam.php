@@ -59,61 +59,62 @@
       <!-- TROUVER TEAM LIST -->
       <div class="findteam__list">
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Olymp'Us Recrute</p>
+          <p class="findteam__list__row__title"><a href="#">Olymp'Us Recrute</a></p>
           <p class="findteam__list__row__game">Valorant</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>32</p>
           <p class="findteam__list__row__time">21h</p>
         </div>
+        
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Main Tank 4k + lfg</p>
+          <p class="findteam__list__row__title"><a href="#">Main Tank 4k + lfg</a></p>
           <p class="findteam__list__row__game">Overwatch</p>
-          <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>5</p>
+          <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>5</a></p>
           <p class="findteam__list__row__time">1 Jour</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Team Diamant Recrute</p>
+          <p class="findteam__list__row__title"><a href="#">Team Diamant Recrute</a></p>
           <p class="findteam__list__row__game">Counter Striker</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>57</p>
           <p class="findteam__list__row__time">10h</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">JOIN US !</p>
+          <p class="findteam__list__row__title"><a href="#">JOIN US !</a></p>
           <p class="findteam__list__row__game">League of Legends</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>15</p>
           <p class="findteam__list__row__time">17h</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Healer top 500 LFG</p>
+          <p class="findteam__list__row__title"><a href="#">Healer top 500 LFG</a></p>
           <p class="findteam__list__row__game">Overwatch</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>20</p>
           <p class="findteam__list__row__time">16h</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Equipe 3k9 LFHealer</p>
+          <p class="findteam__list__row__title"><a href="#">Equipe 3k9 LFHealer</a></p>
           <p class="findteam__list__row__game">Overwatch</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>3</p>
           <p class="findteam__list__row__time">7h</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Blackwatch recrute</p>
+          <p class="findteam__list__row__title"><a href="#">Blackwatch recrute</a></p>
           <p class="findteam__list__row__game">Valorant</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>84</p>
           <p class="findteam__list__row__time">7 Juin</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Main DPS recherche ...</p>
+          <p class="findteam__list__row__title"><a href="#">Main DPS recherche ...</a></p>
           <p class="findteam__list__row__game">Overwatch</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>24</p>
           <p class="findteam__list__row__time">12 Mai</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Envie d'une team ?</p>
+          <p class="findteam__list__row__title"><a href="#">Envie d'une team ?</a></p>
           <p class="findteam__list__row__game">Valorant</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>3</p>
           <p class="findteam__list__row__time">4h</p>
         </div>
         <div class="findteam__list__row">
-          <p class="findteam__list__row__title">Joueur Flex LFG</p>
+          <p class="findteam__list__row__title"><a href="#">Joueur Flex LFG</a></p>
           <p class="findteam__list__row__game">Overwatch</p>
           <p class="findteam__list__row__nbrreponse"><i class="far fa-comment-alt"></i>7</p>
           <p class="findteam__list__row__time">9h</p>

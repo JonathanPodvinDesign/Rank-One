@@ -40,6 +40,9 @@
       }
       & p:nth-child(1) {
         width: 45%;
+        & a {
+          color: white;
+        }
       }
       & p:nth-child(2) {
         text-align: center;

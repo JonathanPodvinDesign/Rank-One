@@ -21,7 +21,7 @@
             <div><i class="fas fa-headset"></i>eSport</div>
             <ul class="submenu--esport__list">
               <li><a href="evennements.php">Événnements</a></li>
-              <li><a href="#">Coaching</a></li>
+              <li><a href="coaching.php">Coaching</a></li>
               <li><a href="creerteam.php">Créer une team</a></li>
               <li><a href="trouverteam.php">Trouver une team</a></li>
               <li><a href="ranking.php">Ranking</a></li>

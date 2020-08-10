@@ -162,7 +162,7 @@
             par des pro <br />
             gameurs
           </h4>
-          <a href="#"
+          <a href="coaching.php"
             ><button class="primary-button">
               Réserver un coach
             </button></a
@@ -212,7 +212,7 @@
             en team c'est quand <br />
             même mieux !
           </h4>
-          <a href="#"
+          <a href="trouverteam.php"
             ><button class="primary-button">
               Trouver une team
             </button></a
