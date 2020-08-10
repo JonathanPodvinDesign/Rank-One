@@ -1142,6 +1142,104 @@ textarea {
   background-image: url("../img/planning/110718.jpg");
 }
 
+.findteam-background {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/findteam--bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/findteam--bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.findteam-background .pagination {
+  margin: 0;
+  padding: 48px 0;
+}
+
+.findteam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.findteam .categories__title--findteam h2 {
+  color: #fdc300;
+}
+
+.findteam__list {
+  width: 1090px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.findteam__list__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.findteam__list__row p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 21px;
+  color: white;
+  text-align-last: left;
+}
+
+.findteam__list__row p:nth-child(1) {
+  width: 45%;
+}
+
+.findteam__list__row p:nth-child(2) {
+  text-align: center;
+  width: 35%;
+}
+
+.findteam__list__row p:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+.findteam__list__row p:nth-child(3) .fa-comment-alt {
+  color: #fdc300;
+  margin-right: 12px;
+}
+
+.findteam__list__row p:nth-child(4) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 10%;
+}
+
+.findteam__list__row:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 .ranking {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -23,7 +23,7 @@
               <li><a href="evennements.php">Événnements</a></li>
               <li><a href="#">Coaching</a></li>
               <li><a href="creerteam.php">Créer une team</a></li>
-              <li><a href="#">Trouver une team</a></li>
+              <li><a href="trouverteam.php">Trouver une team</a></li>
               <li><a href="ranking.php">Ranking</a></li>
             </ul>
           </li>

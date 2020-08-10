@@ -39,7 +39,7 @@
       include 'header-yellow.php';
   ?>
 
-  <div class="margin-top-fixed-for-sticky-menu">
+  <div class="main margin-top-fixed-for-sticky-menu">
 
     <!-- RANKING -->
     <!-- RANKING -->
