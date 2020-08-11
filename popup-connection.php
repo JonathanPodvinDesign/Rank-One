@@ -6,20 +6,19 @@
     </div>
     <div class="popupconnection__popup__title">
       <p>\</p>
-      <p>Faites votre choix</p>
+      <p>Identifiez-vous</p>
       <p>\</p>
     </div>
-    <div class="popupconnection__popup__choice">
-      <div class="popupconnection__popup__choice__create">
-        <p>Je n'ai pas encore de compte Rank One</p>
-        <a href="creercompte.php"
-          ><button class="secondary-button">Créer-en un</button></a
-        >
+    <div class="popupconnection__popup__login">
+      <div class="popupconnection__popup__login__identifiant">
+        <input type="text" placeholder="Identifiant ou Email" />
+        <a href="#">Identifiant oublié ?</a>
       </div>
-      <div class="popupconnection__popup__choice__login">
-        <p>Je suis déjà Rank One</p>
-        <button class="secondary-button">Connectez-vous</button>
+      <div class="popupconnection__popup__login__passsword">
+        <input type="password" placeholder="Mot de passe" />
+        <a href="#">Mot de passe oublié ?</a>
       </div>
     </div>
+    <a href="#"><button class="secondary-button">Valider</button></a>
   </div>
 </div>

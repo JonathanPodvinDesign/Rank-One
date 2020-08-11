@@ -61,14 +61,23 @@ $(document).ready(function () {
     }
   });
 
-  // connection click
+  // connection choice click
   $(".submenu--account__list__login").click(function () {
-    $(".popupconnection").css("display", "flex");
+    $(".popupconnectionchoice").css("display", "flex");
   });
 
   // close connection
-  $(".popupconnection__popup__close-button").click(function () {
+  $(
+    ".popupconnectionchoice__popup__close-button, .popupconnection__popup__close-button"
+  ).click(function () {
+    $(".popupconnectionchoice").css("display", "none");
     $(".popupconnection").css("display", "none");
+  });
+
+  // click connection
+  $(".popupconnectionchoice__popup__choice__login").click(function () {
+    $(".popupconnection").css("display", "flex");
+    $(".popupconnectionchoice").css("display", "none");
   });
   // END
 });

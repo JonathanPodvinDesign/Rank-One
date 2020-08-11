@@ -1,4 +1,4 @@
-.popupconnection {
+.popupconnectionchoice {
   z-index: 1000;
   position: absolute;
   top: -60px;
@@ -11,7 +11,7 @@
 
   &__popup {
     position: relative;
-    height: 600px;
+    height: 500px;
     width: calc(1090px - (48px * 2));
     background-color: $secondary-color;
     display: flex;
@@ -61,38 +61,21 @@
       }
     }
     // CHOICE
-    &__login {
+    &__choice {
       align-self: center;
       display: flex;
       margin-top: 96px;
-
       & div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         margin: 0 24px;
-
-        & input {
-          width: 250px;
-          padding: 24px 12px;
-          outline: none;
-        }
-
-        & a {
+        & p {
           font-size: 12px;
-          margin-top: 12px;
-          color: $primary-color;
           text-align: center;
+          margin-bottom: 12px;
         }
-      }
-    }
-
-    & a {
-      margin-top: 96px;
-      align-self: center;
-      & button {
-        width: 230px;
-        height: 60px;
+        & button {
+          width: 230px;
+          height: 60px;
+        }
       }
     }
   }

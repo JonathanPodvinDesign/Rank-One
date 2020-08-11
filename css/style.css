@@ -2355,7 +2355,7 @@ h4 {
 
 .popupconnection__popup {
   position: relative;
-  height: 500px;
+  height: 600px;
   width: calc(1090px - (48px * 2));
   background-color: #fdc300;
   display: -webkit-box;
@@ -2419,7 +2419,7 @@ h4 {
   padding: 0 40px;
 }
 
-.popupconnection__popup__choice {
+.popupconnection__popup__login {
   -ms-flex-item-align: center;
       align-self: center;
   display: -webkit-box;
@@ -2428,17 +2428,147 @@ h4 {
   margin-top: 96px;
 }
 
-.popupconnection__popup__choice div {
+.popupconnection__popup__login div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 24px;
 }
 
-.popupconnection__popup__choice div p {
+.popupconnection__popup__login div input {
+  width: 250px;
+  padding: 24px 12px;
+  outline: none;
+}
+
+.popupconnection__popup__login div a {
+  font-size: 12px;
+  margin-top: 12px;
+  color: #1e1e1f;
+  text-align: center;
+}
+
+.popupconnection__popup a {
+  margin-top: 96px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.popupconnection__popup a button {
+  width: 230px;
+  height: 60px;
+}
+
+.popupconnectionchoice {
+  z-index: 1000;
+  position: absolute;
+  top: -60px;
+  width: 100vw;
+  height: calc(100vh + 60px);
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popupconnectionchoice__popup {
+  position: relative;
+  height: 500px;
+  width: calc(1090px - (48px * 2));
+  background-color: #fdc300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popupconnectionchoice__popup__close-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.popupconnectionchoice__popup__close-button div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1001;
+  cursor: pointer;
+  width: 30px;
+  height: 5px;
+  background-color: #1e1e1f;
+  top: 50%;
+}
+
+.popupconnectionchoice__popup__close-button div:first-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.popupconnectionchoice__popup__close-button div:last-child {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.popupconnectionchoice__popup__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.popupconnectionchoice__popup__title p {
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.popupconnectionchoice__popup__title p:nth-child(2) {
+  padding: 0 40px;
+}
+
+.popupconnectionchoice__popup__choice {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 96px;
+}
+
+.popupconnectionchoice__popup__choice div {
+  margin: 0 24px;
+}
+
+.popupconnectionchoice__popup__choice div p {
   font-size: 12px;
   text-align: center;
   margin-bottom: 12px;
 }
 
-.popupconnection__popup__choice div button {
+.popupconnectionchoice__popup__choice div button {
   width: 230px;
   height: 60px;
 }

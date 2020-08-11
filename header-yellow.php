@@ -72,4 +72,11 @@
   <?php
     include 'popup-connection.php';
   ?>
+
+  <!-- POPUP CREER COMPTE -->
+  <!-- POPUP CREER COMPTE -->
+  <!-- POPUP CREER COMPTE -->
+  <?php
+    include 'popup-connection-choice.php';
+  ?>
 </header>
