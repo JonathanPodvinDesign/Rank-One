@@ -1790,6 +1790,98 @@ textarea {
   height: 60px;
 }
 
+.reglementation {
+  z-index: 900;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.reglementation__popup {
+  background-color: #1e1e1f;
+  width: 768px;
+  height: 768px;
+  padding: 48px 12px 48px 48px;
+}
+
+.reglementation__popup__title {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.reglementation__popup__text {
+  margin: 48px 0;
+  width: 100%;
+  height: 75%;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-right: 24px;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.reglementation__popup__text p {
+  color: white;
+  font-weight: lighter;
+}
+
+.reglementation__popup__text__title {
+  margin: 24px 0;
+}
+
+.reglementation__popup__text__title:first-child {
+  margin-top: 0;
+}
+
+.reglementation__popup__text::-webkit-scrollbar {
+  width: 1px;
+}
+
+.reglementation__popup__text::-webkit-scrollbar-track {
+  background: #545454;
+}
+
+.reglementation__popup__text::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.reglementation__popup__text::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.reglementation__popup__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reglementation__popup__btn button {
+  outline: none;
+  margin: 0 24px;
+}
+
+.reglementation__popup__btn button:first-child {
+  cursor: pointer;
+}
+
 .team {
   display: -webkit-box;
   display: -ms-flexbox;
