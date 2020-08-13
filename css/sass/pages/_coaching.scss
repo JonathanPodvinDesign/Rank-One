@@ -1,0 +1,94 @@
+.coaching {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  & .categories__title--coaching {
+    & h2 {
+      color: $secondary-color;
+    }
+  }
+
+  &__selection {
+    position: relative;
+    width: 1090px;
+    display: flex;
+    align-self: center;
+    margin-top: 48px;
+
+    & div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      max-width: calc((100% - 96px) / 3);
+      flex: calc((100% - 96px) / 3);
+      background-color: $secondary-color;
+      margin-right: 48px;
+
+      & p {
+        user-select: none;
+        color: $primary-color;
+        font-family: $third-font;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+
+    & div:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__list {
+    position: relative;
+    width: 1090px;
+    display: flex;
+    align-self: center;
+    margin: 48px 0;
+    & div {
+      width: calc((100% - 96px) / 3);
+      margin-right: 48px;
+      & div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        background-color: rgba(253, 195, 0, 0.8);
+        cursor: pointer;
+        & p {
+          font-size: 21px;
+        }
+      }
+      & div:hover {
+        background-color: rgba(253, 195, 0, 1);
+        transition: 150ms ease-in-out;
+      }
+    }
+    & div:last-child {
+      margin-right: 0;
+    }
+    &__jeux {
+      &__jeu {
+        & p {
+          text-transform: uppercase;
+        }
+      }
+    }
+    &__dates {
+      &__date:first-child {
+        font-size: 21px;
+        cursor: auto;
+        & .fa-arrow-right,
+        & .fa-arrow-left {
+          height: 15px;
+          width: 15px;
+          margin: 0 30px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
