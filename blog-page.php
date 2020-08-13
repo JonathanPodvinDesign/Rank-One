@@ -52,7 +52,7 @@
       <!-- title -->
       <div class="categories__title">
         <div class="hook">
-          <img src="img/hook.svg" alt="Hook" />
+          <img src="img/hook-yellow.svg" alt="Hook" />
         </div>
         <h2>
           Warm <br />

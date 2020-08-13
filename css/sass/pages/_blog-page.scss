@@ -3,11 +3,11 @@
   justify-content: center;
   flex-direction: column;
   background-color: white;
-  padding-top: 48px;
 
-  .image-article {
+  & .image-article {
     align-self: center;
     width: 1090px;
+    margin-top: 48px;
 
     & p {
       text-align: right;

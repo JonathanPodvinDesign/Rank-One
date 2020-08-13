@@ -505,7 +505,6 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: white;
-  padding-top: 48px;
 }
 
 .blog-page .image-article {
@@ -513,6 +512,7 @@ textarea {
       -ms-grid-row-align: center;
       align-self: center;
   width: 1090px;
+  margin-top: 48px;
 }
 
 .blog-page .image-article p {
