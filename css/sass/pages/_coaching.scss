@@ -91,4 +91,18 @@
       }
     }
   }
+
+  &__btn {
+    width: 1090px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    & button {
+      width: 250px;
+      height: 80px;
+      font-family: $third-font;
+      font-size: 25px;
+    }
+  }
 }

@@ -1370,6 +1370,26 @@ textarea {
   cursor: pointer;
 }
 
+.coaching__btn {
+  width: 1090px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 48px;
+}
+
+.coaching__btn button {
+  width: 250px;
+  height: 80px;
+  font-family: "Graduate";
+  font-size: 25px;
+}
+
 .ranking {
   display: -webkit-box;
   display: -ms-flexbox;

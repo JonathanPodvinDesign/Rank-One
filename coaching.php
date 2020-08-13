@@ -89,11 +89,8 @@
           </div>
           <div class="coaching__list__dates">
             <div class="coaching__list__dates__date">
-              <i
-                class="fas fa-arrow-left coaching__list__dates__date__arrow"
-              ></i
-              >Semaine<i
-                class="fas fa-arrow-right coaching__list__dates__date__arrow"
+              <i class="fas fa-arrow-left"></i>Semaine<i
+                class="fas fa-arrow-right"
               ></i>
             </div>
             <div class="coaching__list__dates__date">
@@ -128,6 +125,9 @@
             <div class="coaching__list__horaire__heure"><p>23h à 00h</p></div>
             <div class="coaching__list__horaire__heure"><p>00h à 01h</p></div>
           </div>
+        </div>
+        <div class="coaching__btn">
+          <button class="third-button">VALIDER</button>
         </div>
       </div>
     </div>
