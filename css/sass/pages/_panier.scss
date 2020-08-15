@@ -3,6 +3,7 @@
 }
 
 .panier {
+  width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -10,7 +11,7 @@
   padding-top: 48px !important;
 
   &__categories {
-    width: 992px;
+    width: 1090px;
     align-self: center;
     display: flex;
     justify-content: space-between;

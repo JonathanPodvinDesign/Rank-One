@@ -12,13 +12,16 @@
         <ul>
           <li class="submenu--bar">
             <div><i class="fas fa-cocktail"></i>Bar</div>
-            <ul class="submenu--bar__list">
-              <li><a href="histoire.php">L'histoire</a></li>
-              <li><a href="carte.php">La carte</a></li>
-            </ul>
+            <div class="submenu--bar__list submenu--container">
+              <ul class="submenu--bar__list">
+                <li><a href="histoire.php">L'histoire</a></li>
+                <li><a href="carte.php">La carte</a></li>
+              </ul>
+            </div>
           </li>
           <li class="submenu--esport">
             <div><i class="fas fa-headset"></i>eSport</div>
+            <div class="submenu--esport__list submenu--container">
             <ul class="submenu--esport__list">
               <li><a href="evennements.php">Événnements</a></li>
               <li><a href="coaching.php">Coaching</a></li>
@@ -26,6 +29,7 @@
               <li><a href="trouverteam.php">Trouver une team</a></li>
               <li><a href="ranking.php">Ranking</a></li>
             </ul>
+            </div>
           </li>
           <li>
             <div>
@@ -44,6 +48,7 @@
           </li>
           <li class="submenu--account">
             <div><i class="fas fa-user"></i>Compte</div>
+            <div class="submenu--account__list submenu--container">
             <ul class="submenu--account__list">
               <li><a href="compte.php">Mon compte</a></li>
               <li><a href="panier.php">Mon panier</a></li>
@@ -52,6 +57,7 @@
                 <p class="submenu--account__list__login">Connection</p>
               </li>
             </ul>
+            </div>
           </li>
         </ul>
       </div>

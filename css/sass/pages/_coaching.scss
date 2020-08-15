@@ -1,9 +1,12 @@
 .coaching {
   display: flex;
+  width: 100vw;
   justify-content: center;
   flex-direction: column;
 
   & .categories__title--coaching {
+    padding: 0 !important;
+    margin-top: 48px;
     & h2 {
       color: $secondary-color;
     }

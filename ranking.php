@@ -154,8 +154,8 @@
         <!-- Rank 10 -->
         <div class="ranking__list__row">
           <p class="ranking__list__row__number">10.</p>
-          <p class="ranking__list__row__name">IMPKABLE</p>
-          <p class="ranking__list__row__game">John Doe</p>
+          <p class="ranking__list__row__name">John Doe</p>
+          <p class="ranking__list__row__game">League of Legends</p>
           <p class="ranking__list__row__points">65</p>
         </div>
       </div>

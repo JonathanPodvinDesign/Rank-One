@@ -1,6 +1,7 @@
 //  HEADER
 .header {
   position: relative;
+  width: 100vw;
   display: flex;
   justify-content: center;
   padding-top: 60px;
@@ -53,6 +54,10 @@
               color: white;
               cursor: pointer;
 
+              &:hover {
+                color: lighten($primary-color, 50%);
+              }
+
               & svg {
                 margin-right: 25px;
                 display: none;
@@ -65,13 +70,17 @@
                 text-decoration: none;
 
                 &:hover {
-                  color: lighten($secondary-color, 25%);
+                  color: lighten($primary-color, 50%);
                 }
               }
+            }
 
-              &:hover {
-                color: lighten($secondary-color, 25%);
-              }
+            & .submenu--container {
+              height: 110px;
+              width: 120px;
+              position: absolute;
+              top: 0;
+              left: 0;
             }
 
             & ul {
@@ -104,6 +113,11 @@
 
                 & p {
                   cursor: pointer;
+                  color: $primary-color;
+
+                  &:hover {
+                    color: lighten($primary-color, 50%);
+                  }
                 }
               }
             }
@@ -165,21 +179,29 @@
       &__menu {
         & ul {
           & li {
-            & div {
+            & div:first-child {
               color: $primary-color !important;
 
               & a {
                 color: $primary-color !important;
               }
             }
-            & ul {
-              background-color: $primary-color;
-              & li {
-                & a {
-                  color: $secondary-color;
-                }
-                & p {
-                  color: $secondary-color;
+            & div:last-child {
+              & ul {
+                background-color: $primary-color;
+                & li {
+                  & a {
+                    color: $secondary-color;
+                    &:hover {
+                      color: white;
+                    }
+                  }
+                  & p {
+                    color: $secondary-color;
+                    &:hover {
+                      color: white;
+                    }
+                  }
                 }
               }
             }
@@ -190,12 +212,37 @@
   }
 }
 
+// hover submenu
+.submenu--bar:hover .submenu--bar__list {
+  display: flex !important;
+}
+
+.submenu--bar__list:hover .submenu--bar__list {
+  display: flex !important;
+}
+
+.submenu--esport:hover .submenu--esport__list {
+  display: flex !important;
+}
+
+.submenu--esport__list:hover .submenu--esport__list {
+  display: flex !important;
+}
+
+.submenu--account:hover .submenu--account__list {
+  display: flex !important;
+}
+
+.submenu--account__list:hover .submenu--account__list {
+  display: flex !important;
+}
+
 // for jQuery : menu change animation when scrolling
 .sticky__menu {
   z-index: 1000;
   position: fixed;
   top: 0px;
-  width: calc(100vw - 17px);
+  width: 100vw;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $primary-color;
@@ -208,7 +255,7 @@
   z-index: 101;
   position: fixed;
   top: 0px;
-  width: calc(100vw - 17px);
+  width: 100vw;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: $secondary-color;

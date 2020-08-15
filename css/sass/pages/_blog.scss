@@ -1,5 +1,6 @@
 .blog {
   display: flex;
+  width: 100vw;
   flex-direction: column;
   & article {
     margin-top: 48px;
@@ -43,6 +44,7 @@
     }
   }
   article:nth-child(1) {
+    margin-top: 48px;
     background-image: url("../img/blog/blog__img--gamingmouse__280518.jpg");
   }
   article:nth-child(2) {

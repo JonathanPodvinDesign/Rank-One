@@ -9,31 +9,6 @@ $(document).ready(function () {
     $(".nav__bar__hamburger").toogleClass("nav__bar__hamburger__fixed");
   });
 
-  // sub-menu
-  $(".submenu--bar").click(function () {
-    $(".submenu--bar__list").toggleClass("submenu--bar__list--show");
-    $(".submenu--esport__list").addClass("submenu--bar__list--hide");
-    $(".submenu--esport__list").removeClass("submenu--bar__list--show");
-    $(".submenu--account__list").addClass("submenu--bar__list--hide");
-    $(".submenu--account__list").removeClass("submenu--bar__list--show");
-  });
-
-  $(".submenu--esport").click(function () {
-    $(".submenu--esport__list").toggleClass("submenu--bar__list--show");
-    $(".submenu--bar__list").addClass("submenu--bar__list--hide");
-    $(".submenu--bar__list").removeClass("submenu--bar__list--show");
-    $(".submenu--account__list").addClass("submenu--bar__list--hide");
-    $(".submenu--account__list").removeClass("submenu--bar__list--show");
-  });
-
-  $(".submenu--account").click(function () {
-    $(".submenu--account__list").toggleClass("submenu--bar__list--show");
-    $(".submenu--bar__list").addClass("submenu--bar__list--hide");
-    $(".submenu--bar__list").removeClass("submenu--bar__list--show");
-    $(".submenu--esport__list").addClass("submenu--bar__list--hide");
-    $(".submenu--esport__list").removeClass("submenu--bar__list--show");
-  });
-
   //  menu scrolling down
   $(window).scroll(function () {
     if ($(window).scrollTop() > 60) {

@@ -2,9 +2,10 @@
 
 .contact {
   display: flex;
+  width: 100vw;
   justify-content: center;
   background-color: $primary-color;
-  padding: 60px 0;
+  margin: 48px 0;
 
   @media (max-width: 768px) {
     max-width: 768px;
