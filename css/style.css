@@ -2410,8 +2410,8 @@ h4 {
 }
 
 .header nav .nav__bar__menu ul li .submenu--container {
-  height: 110px;
-  width: 120px;
+  height: 30px;
+  width: 80px;
   position: absolute;
   top: 25px;
   left: 0;
