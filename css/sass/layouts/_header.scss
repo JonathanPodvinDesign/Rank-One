@@ -79,14 +79,14 @@
               height: 110px;
               width: 120px;
               position: absolute;
-              top: 0;
+              top: 25px;
               left: 0;
             }
 
             & ul {
               position: absolute;
               left: -60%;
-              top: 48px;
+              top: 23px;
               width: 180px;
               background-color: $secondary-color;
               z-index: 1000;
@@ -182,8 +182,16 @@
             & div:first-child {
               color: $primary-color !important;
 
+              &:hover {
+                color: lighten($primary-color, 50%) !important;
+              }
+
               & a {
                 color: $primary-color !important;
+
+                &:hover {
+                  color: lighten($primary-color, 50%) !important;
+                }
               }
             }
             & div:last-child {
