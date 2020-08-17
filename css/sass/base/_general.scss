@@ -169,6 +169,12 @@ textarea {
     & div {
       padding: 0 24px;
 
+      &:nth-child(3) {
+        & a {
+          color: $secondary-color;
+        }
+      }
+
       & a {
         color: white;
       }

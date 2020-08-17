@@ -191,6 +191,10 @@ textarea {
   padding: 0 24px;
 }
 
+.pagination .selection div:nth-child(3) a {
+  color: #fdc300;
+}
+
 .pagination .selection div a {
   color: white;
 }
@@ -1480,6 +1484,7 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  background-color: #fdc300;
 }
 
 .ranking__selection .ranking__selection__dropdown p {
@@ -1493,13 +1498,27 @@ textarea {
   text-align: center;
   line-height: 80px;
   margin-left: 0;
-  background-color: #fdc300;
 }
 
 .ranking__selection .ranking__selection__dropdown p:hover {
   background-color: #ffce54;
   -webkit-transition: 180ms ease-in-out;
   transition: 180ms ease-in-out;
+}
+
+.ranking__selection .ranking__selection__dropdown--games {
+  height: calc(7 * 80px);
+  border: 2px solid #545454;
+}
+
+.ranking__selection .ranking__selection__dropdown--mois {
+  height: calc(12 * 80px);
+  border: 2px solid #545454;
+}
+
+.ranking__selection .ranking__selection__dropdown--villes {
+  height: calc(2 * 80px);
+  border: 2px solid #545454;
 }
 
 .ranking__list {

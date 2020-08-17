@@ -48,6 +48,7 @@
       top: 96px;
       flex-direction: column;
       width: 100%;
+      background-color: $secondary-color;
 
       & p {
         width: 100%;
@@ -58,13 +59,27 @@
         text-align: center;
         line-height: 80px;
         margin-left: 0;
-        background-color: $secondary-color;
 
         &:hover {
           background-color: $fourth-color;
           transition: 180ms ease-in-out;
         }
       }
+    }
+
+    & .ranking__selection__dropdown--games {
+      height: calc(7 * 80px);
+      border: $primary-border;
+    }
+
+    & .ranking__selection__dropdown--mois {
+      height: calc(12 * 80px);
+      border: $primary-border;
+    }
+
+    & .ranking__selection__dropdown--villes {
+      height: calc(2 * 80px);
+      border: $primary-border;
     }
   }
 
