@@ -1026,6 +1026,7 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  background-color: #fdc300;
 }
 
 .evennement__selection .evennement__selection__dropdown p {
@@ -1039,13 +1040,25 @@ textarea {
   text-align: center;
   line-height: 80px;
   margin-left: 0;
-  background-color: #fdc300;
 }
 
 .evennement__selection .evennement__selection__dropdown p:hover {
   background-color: #ffce54;
   -webkit-transition: 180ms ease-in-out;
   transition: 180ms ease-in-out;
+}
+
+.evennement__selection .evennement__selection__dropdown--games,
+.evennement__selection .evennement__selection__dropdown--villes {
+  border: 2px solid #545454;
+}
+
+.evennement__selection .evennement__selection__dropdown--games {
+  height: calc(7 * 80px);
+}
+
+.evennement__selection .evennement__selection__dropdown--villes {
+  height: calc(2 * 80px);
 }
 
 .evennement__grid {

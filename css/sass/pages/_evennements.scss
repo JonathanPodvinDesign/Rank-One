@@ -44,6 +44,7 @@
       top: 96px;
       flex-direction: column;
       width: 100%;
+      background-color: $secondary-color;
 
       & p {
         width: 100%;
@@ -54,13 +55,25 @@
         text-align: center;
         line-height: 80px;
         margin-left: 0;
-        background-color: $secondary-color;
 
         &:hover {
           background-color: $fourth-color;
           transition: 180ms ease-in-out;
         }
       }
+    }
+
+    & .evennement__selection__dropdown--games,
+    .evennement__selection__dropdown--villes {
+      border: $primary-border;
+    }
+
+    & .evennement__selection__dropdown--games {
+      height: calc(7 * 80px);
+    }
+
+    & .evennement__selection__dropdown--villes {
+      height: calc(2 * 80px);
     }
   }
 
